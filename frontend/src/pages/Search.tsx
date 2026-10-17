@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import { useSearchParams, Link } from 'react-router-dom'
-import { search, SearchResult } from '../lib/api'
+import { search } from '../services/api'
+import type { SearchResult } from '../types/api'
 
 export default function Search() {
   const [searchParams] = useSearchParams()
@@ -138,7 +139,7 @@ export default function Search() {
               ))}
             </div>
 
-            <div className="text-sm font-semibold text-midnight-blue group-hover:text-buttermilk transition">
+            <div className="text-sm font-semibold text-midnight-blue group-hover:text-muted-ink transition">
               View Profile →
             </div>
           </Link>

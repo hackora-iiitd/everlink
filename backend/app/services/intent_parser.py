@@ -11,11 +11,18 @@ class IntentParser:
     MENTOR_KEYWORDS = ["mentor", "guide", "help", "advise", "coach", "teach"]
     RESEARCH_KEYWORDS = [
         "research",
+        "researcher",
+        "professor",
+        "professors",
+        "faculty",
         "project",
         "investigate",
         "study",
         "academic",
         "paper",
+        "working on",
+        "working with",
+        "lab",
     ]
     SENIOR_KEYWORDS = ["senior", "alumni", "alumnus", "alumni", "achievement", "succeeded"]
     TEAMMATE_KEYWORDS = ["team", "teammate", "partner", "co-founder", "collaborate"]
@@ -93,9 +100,11 @@ class IntentParser:
     @staticmethod
     def _extract_keywords(text: str, keywords: List[str]) -> List[str]:
         """Extract matching keywords from text."""
+        normalized_text = text.lower().replace("-", " ").replace("_", " ")
         found = []
         for keyword in keywords:
-            if keyword.lower() in text:
+            normalized_keyword = keyword.lower().replace("-", " ").replace("_", " ")
+            if normalized_keyword in normalized_text:
                 found.append(keyword)
         return found
 

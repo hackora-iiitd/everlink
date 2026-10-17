@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import { useParams, useNavigate } from 'react-router-dom'
-import { getPerson, Person } from '../lib/api'
+import { getPerson } from '../services/api'
+import type { Person } from '../types/api'
 
 export default function Profile() {
   const { id } = useParams<{ id: string }>()
