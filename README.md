@@ -4,7 +4,9 @@
 
 Everlink is a university-community discovery platform built to help students find the people, experience, and opportunities that can move an idea forward. It brings students, alumni, seniors, professors, skills, research, and career history into one connected map so discovery can start with what someone wants to do, not only who they already know.
 
-**Live demo:** [everlink-hackora.vercel.app](https://everlink-hackora.vercel.app)
+**Live Demo:** [everlink-hackora.vercel.app](https://everlink-hackora.vercel.app)
+
+**Pitch Deck:** [https://canva.link/xq266145pxh3rir](https://canva.link/xq266145pxh3rir)
 
 **Status:** Working prototype. The frontend is deployed; several integrations and production capabilities described below are still in development.
 
