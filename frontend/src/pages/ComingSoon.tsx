@@ -7,7 +7,7 @@ export default function ComingSoon({ title }: { title: string }) {
     <>
       <main className="grid min-h-[60vh] place-items-center bg-cream-surface px-5 py-20 text-center">
         <div>
-          <p className="text-sm font-bold uppercase tracking-widest text-teal">Coming up next</p>
+          <p className="text-sm font-bold uppercase tracking-widest text-midnight-blue">Coming up next</p>
           <h1 className="mt-3 font-display text-4xl font-extrabold text-midnight-blue">{title}</h1>
           <p className="mx-auto mt-3 max-w-md text-ink/75">This page is still on the build list.</p>
           <Link

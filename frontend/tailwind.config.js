@@ -15,6 +15,9 @@ export default {
         'midnight-blue': '#053464',  // headings / depth
         'white-surface': '#FFFFFF',
         ink: '#212529',              // body text
+        violet: '#6D28D9',
+        'violet-hover': '#5B21B6',
+        'violet-active': '#4C1D95',
 
         // Legacy aliases used by existing pages (Search, Profile)
         'muted-ink': '#2A7F7B',

@@ -211,7 +211,7 @@ export default function Home() {
                 </div>
 
                 <div className="mt-5 rounded-xl border-l-4 border-buttermilk bg-cream-surface/70 p-4">
-                  <p className="text-xs font-bold uppercase tracking-wide text-teal">Why this matches</p>
+                  <p className="text-xs font-bold uppercase tracking-wide text-midnight-blue">Why this matches</p>
                   <p className="mt-1.5 text-[0.95rem] leading-relaxed text-ink/85">
                     You both have worked on machine learning projects in Python and share an interest in
                     healthcare applications.
@@ -256,7 +256,7 @@ export default function Home() {
                 </div>
 
                 <div className="mt-5 rounded-xl border-l-4 border-buttermilk bg-cream-surface/70 p-4">
-                  <p className="text-xs font-bold uppercase tracking-wide text-teal">Why this matches</p>
+                  <p className="text-xs font-bold uppercase tracking-wide text-midnight-blue">Why this matches</p>
                   <p className="mt-1.5 text-[0.95rem] leading-relaxed text-ink/85">
                     Your Python and machine learning skills line up with this project's requirements, and it
                     is open to student collaborators.
@@ -278,7 +278,7 @@ export default function Home() {
         <section className="bg-cream-surface py-20 text-ink">
           <div className="mx-auto max-w-7xl px-5 sm:px-8">
             <div className="max-w-2xl">
-              <p className="text-sm font-bold uppercase tracking-widest text-teal">The problem</p>
+              <p className="text-sm font-bold uppercase tracking-widest text-midnight-blue">The problem</p>
               <h2 className="mt-3 font-display text-3xl font-extrabold tracking-tight text-forest-green sm:text-4xl">
                 The right connection shouldn't be hard to find.
               </h2>

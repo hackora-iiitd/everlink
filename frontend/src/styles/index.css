@@ -64,7 +64,7 @@ a {
 
 /* :where() keeps specificity at zero so Tailwind colour utilities always win */
 a:where(:hover) {
-  color: var(--color-muted-ink);
+  color: var(--color-midnight-blue);
 }
 
 button {

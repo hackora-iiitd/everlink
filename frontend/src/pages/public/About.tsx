@@ -1,5 +1,135 @@
 import { Link } from 'react-router-dom'
 import Footer from '../../components/layout/Footer'
-const audiences = [['Students', 'Guidance, research opportunities, teammates and career development.'], ['Seniors and alumni', 'Share expertise and mentoring with the community.'], ['Professors', 'Connect with students and relevant collaborators.'], ['Administrators', 'Support a more connected academic community.']]
-const faqs = [['What is Everlink?', 'Everlink is a university ecosystem for discovering relevant people, expertise, research and opportunities.'], ['How are recommendations generated?', 'Available skills, interests, topics and relationship data can be used to rank relevance and explain why a result may be useful.'], ['What is the knowledge graph?', 'It is a connected model of people, skills, research themes, projects and other ecosystem resources.'], ['Do I need an account to explore?', 'No. Public previews are available on Explore; sign-in is required for protected actions and private details.'], ['Who can see my profile?', 'Visibility depends on your selected profile settings and the access controls available in the application.'], ['How do I connect with a professor, senior, or alumnus?', 'Sign in, explore the available public profile information, then use an enabled connection or request action.'], ['How can I report an issue or request help?', 'Use the project’s configured support channel when one is available. This deployment does not currently publish a support contact.']]
-export default function About() { return <><main><section className="bg-cream-surface px-5 py-16 sm:px-8"><div className="mx-auto max-w-5xl"><p className="text-sm font-bold uppercase tracking-widest text-teal">About Everlink</p><h1 className="mt-3 font-display text-4xl font-extrabold text-forest-green sm:text-5xl">A more connected university ecosystem.</h1><p className="mt-5 max-w-3xl text-lg leading-relaxed text-ink/75">Everlink helps university communities turn disconnected talent, knowledge, and ambition into meaningful connections and collaborative opportunities.</p></div></section><section className="mx-auto max-w-7xl px-5 py-16 sm:px-8"><h2 className="font-display text-3xl font-extrabold text-forest-green">Who Everlink serves</h2><div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">{audiences.map(([title, body]) => <article key={title} className="rounded-2xl border border-forest-green/15 p-5"><h3 className="font-display text-lg font-bold text-forest-green">{title}</h3><p className="mt-2 text-sm text-ink/70">{body}</p></article>)}</div></section><section id="faq" className="bg-white-surface px-5 py-16 sm:px-8"><div className="mx-auto max-w-5xl"><h2 className="font-display text-3xl font-extrabold text-forest-green">Frequently asked questions</h2><div className="mt-7 space-y-3">{faqs.map(([question, answer]) => <details key={question} className="rounded-xl border border-forest-green/15 p-4"><summary className="cursor-pointer font-bold text-forest-green">{question}</summary><p className="mt-3 text-sm leading-relaxed text-ink/75">{answer}</p></details>)}</div></div></section><section id="privacy" className="bg-cream-surface px-5 py-16 sm:px-8"><div className="mx-auto max-w-5xl"><h2 className="font-display text-3xl font-extrabold text-forest-green">Privacy Policy</h2><p className="mt-4 text-sm leading-relaxed text-ink/75">Before production, this policy requires legal and operational review. Profile visibility, personal information, relationship data and recommendations should be handled according to the settings and access controls implemented in the service. Do not treat this draft as final legal terms.</p></div></section><section id="terms" className="px-5 py-16 sm:px-8"><div className="mx-auto max-w-5xl"><h2 className="font-display text-3xl font-extrabold text-forest-green">Terms of Use</h2><p className="mt-4 text-sm leading-relaxed text-ink/75">Before production, these terms require legal review. Access to Everlink features is subject to the user’s authenticated role, configured permissions and applicable institutional policies. Do not treat this draft as final legal terms.</p><Link to="/signin" className="mt-6 inline-block rounded-full bg-forest-green px-5 py-2.5 font-semibold text-white-surface">Get started</Link></div></section></main><Footer /></> }
+
+const audiences = [
+  ['Students', 'Guidance, research opportunities, teammates and career development.'],
+  ['Seniors and alumni', 'Share expertise and mentoring with the community.'],
+  ['Professors', 'Connect with students and relevant collaborators.'],
+  ['Administrators', 'Support a more connected academic community.'],
+]
+
+const faqs = [
+  [
+    'What is Everlink?',
+    'Everlink is a university ecosystem for discovering relevant people, expertise, research and opportunities.',
+  ],
+  [
+    'How are recommendations generated?',
+    'Available skills, interests, topics and relationship data can be used to rank relevance and explain why a result may be useful.',
+  ],
+  [
+    'What is the knowledge graph?',
+    'It is a connected model of people, skills, research themes, projects and other ecosystem resources.',
+  ],
+  [
+    'Do I need an account to explore?',
+    'No. Public previews are available on Explore; sign-in is required for protected actions and private details.',
+  ],
+  [
+    'Who can see my profile?',
+    'Visibility depends on your selected profile settings and the access controls available in the application.',
+  ],
+  [
+    'How do I connect with a professor, senior, or alumnus?',
+    'Sign in, explore the available public profile information, then use an enabled connection or request action.',
+  ],
+  [
+    'How can I report an issue or request help?',
+    'Use the project’s configured support channel when one is available. This deployment does not currently publish a support contact.',
+  ],
+]
+
+export default function About() {
+  return (
+    <>
+      <main>
+        <section className="bg-cream-surface px-5 py-16 sm:px-8">
+          <div className="mx-auto max-w-5xl">
+            <p className="text-sm font-bold uppercase tracking-widest text-midnight-blue">
+              About Everlink
+            </p>
+            <h1 className="mt-3 font-display text-4xl font-extrabold text-forest-green sm:text-5xl">
+              A more connected university ecosystem.
+            </h1>
+            <p className="mt-5 max-w-3xl text-lg leading-relaxed text-ink/75">
+              Everlink helps university communities turn disconnected talent, knowledge, and
+              ambition into meaningful connections and collaborative opportunities.
+            </p>
+          </div>
+        </section>
+
+        <section className="mx-auto max-w-7xl px-5 py-16 sm:px-8">
+          <h2 className="font-display text-3xl font-extrabold text-forest-green">
+            Who Everlink serves
+          </h2>
+          <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+            {audiences.map(([title, body]) => (
+              <article
+                key={title}
+                className="rounded-2xl border border-forest-green/15 p-5"
+              >
+                <h3 className="font-display text-lg font-bold text-forest-green">{title}</h3>
+                <p className="mt-2 text-sm text-ink/70">{body}</p>
+              </article>
+            ))}
+          </div>
+        </section>
+
+        <section id="faq" className="bg-white-surface px-5 py-16 sm:px-8">
+          <div className="mx-auto max-w-5xl">
+            <h2 className="font-display text-3xl font-extrabold text-forest-green">
+              Frequently asked questions
+            </h2>
+            <div className="mt-7 space-y-3">
+              {faqs.map(([question, answer]) => (
+                <details
+                  key={question}
+                  className="rounded-xl border border-forest-green/15 p-4"
+                >
+                  <summary className="cursor-pointer font-bold text-forest-green">
+                    {question}
+                  </summary>
+                  <p className="mt-3 text-sm leading-relaxed text-ink/75">{answer}</p>
+                </details>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        <section id="privacy" className="bg-cream-surface px-5 py-16 sm:px-8">
+          <div className="mx-auto max-w-5xl">
+            <h2 className="font-display text-3xl font-extrabold text-forest-green">
+              Privacy Policy
+            </h2>
+            <p className="mt-4 text-sm leading-relaxed text-ink/75">
+              Before production, this policy requires legal and operational review. Profile
+              visibility, personal information, relationship data and recommendations should be
+              handled according to the settings and access controls implemented in the service. Do
+              not treat this draft as final legal terms.
+            </p>
+          </div>
+        </section>
+
+        <section id="terms" className="px-5 py-16 sm:px-8">
+          <div className="mx-auto max-w-5xl">
+            <h2 className="font-display text-3xl font-extrabold text-forest-green">
+              Terms of Use
+            </h2>
+            <p className="mt-4 text-sm leading-relaxed text-ink/75">
+              Before production, these terms require legal review. Access to Everlink features is
+              subject to the user’s authenticated role, configured permissions and applicable
+              institutional policies. Do not treat this draft as final legal terms.
+            </p>
+            <Link
+              to="/signin"
+              className="mt-6 inline-block rounded-full bg-violet px-5 py-2.5 font-semibold text-white-surface transition hover:bg-violet-hover active:bg-violet-active active:scale-[0.98] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-violet"
+            >
+              Get started
+            </Link>
+          </div>
+        </section>
+      </main>
+      <Footer />
+    </>
+  )
+}

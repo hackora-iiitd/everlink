@@ -1,5 +1,143 @@
 import { Compass, GitBranch, GraduationCap, LineChart, Rocket, Telescope } from 'lucide-react'
 import { Link } from 'react-router-dom'
 import Footer from '../../components/layout/Footer'
-const features = [{ icon: Compass, title: 'Intent Compass', benefit: 'Find people and opportunities by describing your goal.', body: 'Translate natural-language goals into structured searches for people, research, skills and opportunities.' }, { icon: GitBranch, title: 'Knowledge Graph', benefit: 'Discover relationships behind profiles.', body: 'Explore people, interests, skills and projects together; Neo4j is the intended technology for this graph layer.' }, { icon: Telescope, title: 'Research Bridge', benefit: 'Bring students and research together.', body: 'Discover faculty expertise, research themes and potential collaboration pathways.' }, { icon: GraduationCap, title: 'Senior & Alumni Connect', benefit: 'Learn from experience in your ecosystem.', body: 'Find relevant mentoring, career guidance and professional expertise.' }, { icon: Rocket, title: 'Venture Forge', benefit: 'Build teams around complementary strengths.', body: 'Identify potential teammates through complementary skills and shared goals.' }, { icon: LineChart, title: 'Ecosystem Pulse', benefit: 'See what your community can build next.', body: 'Surface patterns in skills, interests and research themes when supported by available data.' }]
-export default function Features() { return <><main><section className="bg-cream-surface px-5 py-20 sm:px-8"><div className="mx-auto max-w-5xl text-center"><p className="text-sm font-bold uppercase tracking-widest text-teal">The Everlink difference</p><h1 className="mt-4 font-display text-4xl font-extrabold text-forest-green sm:text-6xl">One connected ecosystem. More ways forward.</h1><p className="mx-auto mt-6 max-w-3xl text-lg text-ink/75">Everlink connects student ambitions with the people, expertise, research, and opportunities that can help make them real.</p><p className="mx-auto mt-6 max-w-3xl rounded-xl border-l-4 border-buttermilk bg-white-surface p-5 font-semibold text-midnight-blue">Traditional platforms help you find profiles. Everlink helps you discover relationships and explain why they matter.</p></div></section><section className="mx-auto max-w-7xl px-5 py-20 sm:px-8"><div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">{features.map((feature) => <article key={feature.title} className="rounded-2xl border border-forest-green/15 p-6"><feature.icon className="text-teal" size={27} /><h2 className="mt-4 font-display text-xl font-bold text-forest-green">{feature.title}</h2><p className="mt-2 font-semibold text-midnight-blue">{feature.benefit}</p><p className="mt-2 text-sm leading-relaxed text-ink/70">{feature.body}</p></article>)}</div></section><section className="bg-forest-green px-5 py-20 text-white-surface sm:px-8"><div className="mx-auto max-w-5xl"><h2 className="font-display text-3xl font-extrabold">Why Everlink is different</h2><div className="mt-8 grid overflow-hidden rounded-2xl border border-white-surface/20 text-sm sm:grid-cols-2">{[['Conventional discovery', 'Everlink’s approach'], ['Search for a profile or keyword', 'Start with a goal or intent'], ['View people independently', 'Explore interconnected people and resources'], ['Little result context', 'Use available evidence to explain relevance'], ['Focus on direct matches', 'Surface useful indirect connections'], ['Discover people in isolation', 'Connect people, skills, projects and opportunities']].map((row, index) => <div key={row[0]} className={`contents ${index === 0 ? 'font-bold text-buttermilk' : ''}`}><div className="border-b border-white-surface/15 p-4">{row[0]}</div><div className="border-b border-white-surface/15 p-4">{row[1]}</div></div>)}</div><div className="mt-10 rounded-2xl bg-white-surface/10 p-6"><p className="font-bold text-buttermilk">Natural-language intent → Intent interpretation → Knowledge graph → Relevance ranking → Explainable recommendations → Connection</p><p className="mt-3 text-sm text-white-surface/80">Intent interpretation identifies goals and constraints; the graph represents relationships; ranking evaluates relevance and complementary value; recommendations show available evidence.</p></div></div></section><section className="px-5 py-20 text-center sm:px-8"><h2 className="font-display text-3xl font-extrabold text-forest-green">Your next connection could change what you build.</h2><div className="mt-7 flex justify-center gap-3"><Link to="/join/student" className="rounded-full bg-forest-green px-6 py-3 font-semibold text-white-surface">Get Started</Link><Link to="/explore" className="rounded-full border border-forest-green px-6 py-3 font-semibold text-forest-green">Explore the Network</Link></div></section></main><Footer /></> }
+
+const features = [
+  {
+    icon: Compass,
+    title: 'Intent Compass',
+    benefit: 'Find people and opportunities by describing your goal.',
+    body: 'Translate natural-language goals into structured searches for people, research, skills and opportunities.',
+  },
+  {
+    icon: GitBranch,
+    title: 'Knowledge Graph',
+    benefit: 'Discover relationships behind profiles.',
+    body: 'Explore people, interests, skills and projects together; Neo4j is the intended technology for this graph layer.',
+  },
+  {
+    icon: Telescope,
+    title: 'Research Bridge',
+    benefit: 'Bring students and research together.',
+    body: 'Discover faculty expertise, research themes and potential collaboration pathways.',
+  },
+  {
+    icon: GraduationCap,
+    title: 'Senior & Alumni Connect',
+    benefit: 'Learn from experience in your ecosystem.',
+    body: 'Find relevant mentoring, career guidance and professional expertise.',
+  },
+  {
+    icon: Rocket,
+    title: 'Venture Forge',
+    benefit: 'Build teams around complementary strengths.',
+    body: 'Identify potential teammates through complementary skills and shared goals.',
+  },
+  {
+    icon: LineChart,
+    title: 'Ecosystem Pulse',
+    benefit: 'See what your community can build next.',
+    body: 'Surface patterns in skills, interests and research themes when supported by available data.',
+  },
+]
+
+export default function Features() {
+  return (
+    <>
+      <main>
+        <section className="bg-cream-surface px-5 py-20 sm:px-8">
+          <div className="mx-auto max-w-5xl text-center">
+            <p className="text-sm font-bold uppercase tracking-widest text-midnight-blue">
+              The Everlink difference
+            </p>
+            <h1 className="mt-4 font-display text-4xl font-extrabold text-forest-green sm:text-6xl">
+              One connected ecosystem. More ways forward.
+            </h1>
+            <p className="mx-auto mt-6 max-w-3xl text-lg text-ink/75">
+              Everlink connects student ambitions with the people, expertise, research, and
+              opportunities that can help make them real.
+            </p>
+            <p className="mx-auto mt-6 max-w-3xl rounded-xl border-l-4 border-buttermilk bg-white-surface p-5 font-semibold text-midnight-blue">
+              Traditional platforms help you find profiles. Everlink helps you discover
+              relationships and explain why they matter.
+            </p>
+          </div>
+        </section>
+
+        <section className="mx-auto max-w-7xl px-5 py-20 sm:px-8">
+          <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+            {features.map((feature) => (
+              <article
+                key={feature.title}
+                className="rounded-2xl border border-forest-green/15 p-6"
+              >
+                <feature.icon className="text-teal" size={27} />
+                <h2 className="mt-4 font-display text-xl font-bold text-forest-green">
+                  {feature.title}
+                </h2>
+                <p className="mt-2 font-semibold text-midnight-blue">{feature.benefit}</p>
+                <p className="mt-2 text-sm leading-relaxed text-ink/70">{feature.body}</p>
+              </article>
+            ))}
+          </div>
+        </section>
+
+        <section className="bg-forest-green px-5 py-20 text-white-surface sm:px-8">
+          <div className="mx-auto max-w-5xl">
+            <h2 className="font-display text-3xl font-extrabold">Why Everlink is different</h2>
+            <div className="mt-8 grid overflow-hidden rounded-2xl border border-white-surface/20 text-sm sm:grid-cols-2">
+              {[
+                ['Conventional discovery', 'Everlink’s approach'],
+                ['Search for a profile or keyword', 'Start with a goal or intent'],
+                ['View people independently', 'Explore interconnected people and resources'],
+                ['Little result context', 'Use available evidence to explain relevance'],
+                ['Focus on direct matches', 'Surface useful indirect connections'],
+                ['Discover people in isolation', 'Connect people, skills, projects and opportunities'],
+              ].map((row, index) => (
+                <div
+                  key={row[0]}
+                  className={`contents ${index === 0 ? 'font-bold text-buttermilk' : ''}`}
+                >
+                  <div className="border-b border-white-surface/15 p-4">{row[0]}</div>
+                  <div className="border-b border-white-surface/15 p-4">{row[1]}</div>
+                </div>
+              ))}
+            </div>
+            <div className="mt-10 rounded-2xl bg-white-surface/10 p-6">
+              <p className="font-bold text-buttermilk">
+                Natural-language intent → Intent interpretation → Knowledge graph → Relevance
+                ranking → Explainable recommendations → Connection
+              </p>
+              <p className="mt-3 text-sm text-white-surface/80">
+                Intent interpretation identifies goals and constraints; the graph represents
+                relationships; ranking evaluates relevance and complementary value; recommendations
+                show available evidence.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section className="px-5 py-20 text-center sm:px-8">
+          <h2 className="font-display text-3xl font-extrabold text-forest-green">
+            Your next connection could change what you build.
+          </h2>
+          <div className="mt-7 flex justify-center gap-3">
+            <Link
+              to="/join/student"
+              className="rounded-full bg-violet px-6 py-3 font-semibold text-white-surface transition hover:bg-violet-hover active:bg-violet-active active:scale-[0.98] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-violet"
+            >
+              Get Started
+            </Link>
+            <Link
+              to="/explore"
+              className="rounded-full border border-forest-green px-6 py-3 font-semibold text-forest-green transition hover:bg-cream-surface active:scale-[0.98] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-forest-green"
+            >
+              Explore the Network
+            </Link>
+          </div>
+        </section>
+      </main>
+      <Footer />
+    </>
+  )
+}

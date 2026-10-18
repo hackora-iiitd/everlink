@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import { Link } from 'react-router-dom'
 
 type LogoProps = {
@@ -5,7 +6,8 @@ type LogoProps = {
 }
 
 export function LogoMark({ className = 'h-8 w-auto' }: { className?: string }) {
-  return <img src="/image.png" className={className} alt="" aria-hidden="true" />
+  const [src, setSrc] = useState('/everlink-logo.svg')
+  return <img src={src} onError={() => setSrc('/image.png')} className={`${className} object-contain`} alt="" aria-hidden="true" />
 }
 
 export default function Logo({ light = false }: LogoProps) {
