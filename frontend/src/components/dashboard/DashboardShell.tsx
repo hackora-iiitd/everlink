@@ -39,7 +39,7 @@ export default function DashboardShell({ role, heading, sections, children }: { 
       </div>
 
       <div className="mx-auto grid max-w-7xl gap-8 px-5 py-8 sm:px-8 lg:grid-cols-[210px_1fr]">
-        <nav aria-label="Dashboard sections" className="lg:sticky lg:top-24 lg:self-start">
+        <nav aria-label="Dashboard sections" className="min-w-0 lg:sticky lg:top-24 lg:self-start">
           <ul className="flex gap-2 overflow-x-auto pb-1 lg:flex-col lg:gap-1 lg:overflow-visible">
             {sections.map((s) => (
               <li key={s.id} className="shrink-0">

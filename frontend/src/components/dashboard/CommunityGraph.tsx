@@ -33,7 +33,7 @@ export default function CommunityGraph({ data, currentUserId = 'current-user' }:
         ],
         style: [
           { selector: 'node', style: { label: 'data(label)', 'background-color': (element: NodeSingular) => colors[element.data('kind') as GraphNodeKind], color: '#000000', 'text-outline-color': '#FFFFFF', 'text-outline-width': 1, 'font-size': '9px', 'font-weight': 700, 'text-valign': 'center', 'text-halign': 'center', 'text-wrap': 'wrap', 'text-overflow-wrap': 'anywhere', 'text-max-width': '52px', width: '62px', height: '62px', shape: 'ellipse', 'border-width': (element: NodeSingular) => element.data('kind') === 'person' ? 1 : 0, 'border-color': '#135106', 'overlay-opacity': 0 } },
-          { selector: 'node[current]', style: { width: '70px', height: '70px', 'background-color': '#135106', 'font-size': '10px', 'border-width': 0 } },
+          { selector: 'node[current]', style: { width: '70px', height: '70px', 'background-color': '#135106', 'font-size': '10px', 'text-background-color': '#FFFFFF', 'text-background-opacity': 1, 'text-background-shape': 'roundrectangle', 'text-background-padding': '2px', 'border-width': 0 } },
           { selector: 'edge', style: { width: 'mapData(strength, 0.1, 1, 1.5, 5)', 'line-color': '#135106', opacity: 0.78, 'curve-style': 'bezier', 'source-arrow-shape': 'none', 'target-arrow-shape': 'none' } },
           { selector: 'node.dim', style: { 'border-width': 1, 'border-color': '#6B7280', 'border-opacity': 0.6 } },
           { selector: 'node.focus', style: { 'border-width': 2, 'border-color': '#135106', 'border-opacity': 0.8 } },
