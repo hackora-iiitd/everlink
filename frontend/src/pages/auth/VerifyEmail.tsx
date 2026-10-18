@@ -2,9 +2,10 @@ import { useEffect, useState } from 'react'
 import { Link, useNavigate, useSearchParams } from 'react-router-dom'
 import { ArrowRight, MailCheck } from 'lucide-react'
 import AuthLayout from '../../components/auth/AuthLayout'
+import { roles } from '../../components/auth/roles'
 import type { RoleKey } from '../../components/auth/roles'
 import { PrimaryButton } from '../../components/ui/form'
-import { loadSignup } from '../../lib/demoSession'
+import { loadSignup, nameFromEmail, setSession } from '../../lib/demoSession'
 
 export default function VerifyEmail() {
   const [params] = useSearchParams()
@@ -58,14 +59,27 @@ export default function VerifyEmail() {
         <p className="mt-1 text-sm text-ink/75">
           No emails are sent yet. Continue to preview the onboarding flow.
         </p>
-        <PrimaryButton type="button" className="mt-4" onClick={() => navigate(`/onboarding/${role}`)}>
+        <PrimaryButton
+          type="button"
+          className="mt-4"
+          onClick={() => {
+            setSession({
+              role,
+              name: saved?.fullName || nameFromEmail(email),
+              email: email.toLowerCase(),
+              method: 'igdtuw-email',
+              verified: true,
+            })
+            navigate(`/onboarding/${role}`)
+          }}
+        >
           I've verified my email <ArrowRight size={18} />
         </PrimaryButton>
       </div>
 
       <p className="mt-6 text-sm text-ink/65">
         Wrong address?{' '}
-        <Link to="/join/student" className="font-semibold text-forest-green underline">
+        <Link to={roles[role].registerPath} className="font-semibold text-forest-green underline">
           Start again
         </Link>
       </p>

@@ -10,6 +10,15 @@ import ForgotPassword from '../pages/auth/ForgotPassword'
 import VerifyEmail from '../pages/auth/VerifyEmail'
 import StudentRegister from '../pages/student/StudentRegister'
 import StudentOnboarding from '../pages/student/StudentOnboarding'
+import AlumniJoin from '../pages/alumni/AlumniJoin'
+import AlumniDetails from '../pages/alumni/AlumniDetails'
+import AlumniPending from '../pages/alumni/AlumniPending'
+import AlumniDashboard from '../pages/alumni/AlumniDashboard'
+import LinkedInCallback from '../pages/alumni/LinkedInCallback'
+import ProfessorRegister from '../pages/professor/ProfessorRegister'
+import ProfessorOnboarding from '../pages/professor/ProfessorOnboarding'
+import ProfessorDashboard from '../pages/professor/ProfessorDashboard'
+import RequireRole from '../components/auth/RequireRole'
 import './App.css'
 
 function App() {
@@ -36,8 +45,18 @@ function App() {
           <Route path="/verify-email" element={<VerifyEmail />} />
           <Route path="/onboarding/student" element={<StudentOnboarding />} />
           <Route path="/dashboard/student" element={<ComingSoon title="Student Dashboard" />} />
-          <Route path="/join/alumni" element={<ComingSoon title="Alumni Portal" />} />
-          <Route path="/join/professor" element={<ComingSoon title="Professor Portal" />} />
+
+          {/* Alumni: LinkedIn only, then education verification */}
+          <Route path="/join/alumni" element={<AlumniJoin />} />
+          <Route path="/auth/linkedin/callback" element={<LinkedInCallback />} />
+          <Route path="/join/alumni/details" element={<AlumniDetails />} />
+          <Route path="/verify/alumni" element={<AlumniPending />} />
+          <Route path="/dashboard/alumni" element={<RequireRole role="alumni"><AlumniDashboard /></RequireRole>} />
+
+          {/* Professor: IGDTUW email */}
+          <Route path="/join/professor" element={<ProfessorRegister />} />
+          <Route path="/onboarding/professor" element={<RequireRole role="professor"><ProfessorOnboarding /></RequireRole>} />
+          <Route path="/dashboard/professor" element={<RequireRole role="professor"><ProfessorDashboard /></RequireRole>} />
 
           {/* Existing pages */}
           <Route path="/search" element={<Search />} />

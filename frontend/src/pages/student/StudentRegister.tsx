@@ -14,11 +14,10 @@ import {
   inputCls,
   passwordStrength,
 } from '../../components/ui/form'
-import { isValidEmail, saveSignup } from '../../lib/demoSession'
+import { IGDTUW_DOMAIN, INSTITUTION_NAME, igdtuwEmailError, saveSignup } from '../../lib/demoSession'
 
 const degrees = ['B.Tech / B.E.', 'B.Sc', 'BCA', 'B.Des', 'M.Tech / M.E.', 'M.Sc', 'MCA', 'MBA', 'PhD', 'Other']
 const years = ['1st year', '2nd year', '3rd year', '4th year', '5th year', 'Postgraduate']
-const institutions = ['IGDTUW', 'IIT Delhi', 'DTU', 'NSUT', 'IIIT Delhi', 'Delhi University']
 const departments = [
   'Computer Science',
   'Electronics & Communication',
@@ -77,7 +76,7 @@ export default function StudentRegister() {
     email: '',
     password: '',
     confirm: '',
-    institution: '',
+    institution: 'IGDTUW',
     department: '',
     degree: '',
     year: '',
@@ -97,11 +96,11 @@ export default function StudentRegister() {
   const validate = (): Errors => {
     const e: Errors = {}
     if (f.fullName.trim().length < 2) e.fullName = 'Enter your full name.'
-    if (!isValidEmail(f.email)) e.email = 'Enter a valid email address.'
+    const emailErr = igdtuwEmailError(f.email)
+    if (emailErr) e.email = emailErr
     if (f.password.length < 8) e.password = 'Use at least 8 characters.'
     else if (passwordStrength(f.password).score < 2) e.password = 'Add a number or mix upper and lower case.'
     if (f.confirm !== f.password) e.confirm = 'Passwords do not match.'
-    if (!f.institution.trim()) e.institution = 'Enter your institution.'
     if (!f.department) e.department = 'Choose your department.'
     if (!f.degree) e.degree = 'Choose your degree.'
     if (!f.year) e.year = 'Choose your current year.'
@@ -149,14 +148,14 @@ export default function StudentRegister() {
           <legend className="mb-1 text-xs font-bold uppercase tracking-widest text-teal">1 · Account</legend>
           <TextInput label="Full name" autoComplete="name" value={f.fullName} onChange={set('fullName')} error={errors.fullName} placeholder="Your full name" />
           <TextInput
-            label="Email"
+            label="IGDTUW email"
             type="email"
             autoComplete="email"
             value={f.email}
             onChange={set('email')}
             error={errors.email}
-            placeholder="you@college.edu or personal email"
-            hint="Institutional or personal. We'll send a verification link."
+            placeholder={`name@${IGDTUW_DOMAIN}`}
+            hint="Everlink is open to IGDTUW students only. We'll send a verification link to this address."
           />
           <div className="grid gap-5 sm:grid-cols-2">
             <PasswordInput label="Password" autoComplete="new-password" value={f.password} onChange={set('password')} error={errors.password} showStrength />
@@ -167,19 +166,12 @@ export default function StudentRegister() {
         {/* Education */}
         <fieldset className="space-y-5">
           <legend className="mb-1 text-xs font-bold uppercase tracking-widest text-teal">2 · Education</legend>
-          <TextInput
-            label="Institution"
-            list="institution-list"
-            value={f.institution}
-            onChange={set('institution')}
-            error={errors.institution}
-            placeholder="Start typing, or enter your own"
-          />
-          <datalist id="institution-list">
-            {institutions.map((i) => (
-              <option key={i} value={i} />
-            ))}
-          </datalist>
+          <div>
+            <p className="mb-1.5 text-sm font-semibold text-ink">Institution</p>
+            <p className="rounded-xl border-2 border-forest-green/10 bg-cream-surface px-4 py-3 text-[0.97rem] text-ink/80">
+              {INSTITUTION_NAME}
+            </p>
+          </div>
           <SelectInput label="Department" options={departments} value={f.department} onChange={set('department')} error={errors.department} />
           <div className="grid gap-5 sm:grid-cols-2">
             <SelectInput label="Degree" options={degrees} value={f.degree} onChange={set('degree')} error={errors.degree} />

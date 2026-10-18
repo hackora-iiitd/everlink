@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { NavLink, Link } from 'react-router-dom'
 import { Menu, X } from 'lucide-react'
 import Logo from './Logo'
+import { dashboardPath, useSession } from '../../lib/demoSession'
 
 const links = [
   { to: '/how-it-works', label: 'How It Works' },
@@ -11,6 +12,8 @@ const links = [
 
 export default function Navigation() {
   const [open, setOpen] = useState(false)
+  const session = useSession()
+  const cta = session ? { to: dashboardPath(session), label: 'My Dashboard' } : { to: '/signin', label: 'Sign In' }
 
   const linkClass = ({ isActive }: { isActive: boolean }) =>
     `text-[0.95rem] font-semibold transition-colors ${
@@ -29,10 +32,10 @@ export default function Navigation() {
             </NavLink>
           ))}
           <Link
-            to="/signin"
+            to={cta.to}
             className="rounded-full bg-forest-green px-5 py-2.5 text-[0.95rem] font-semibold text-white-surface transition hover:bg-teal"
           >
-            Sign In
+            {cta.label}
           </Link>
         </div>
 
@@ -65,11 +68,11 @@ export default function Navigation() {
               </NavLink>
             ))}
             <Link
-              to="/signin"
+              to={cta.to}
               onClick={() => setOpen(false)}
               className="mt-2 rounded-full bg-forest-green px-5 py-3 text-center font-semibold text-white-surface"
             >
-              Sign In
+              {cta.label}
             </Link>
           </div>
         </div>

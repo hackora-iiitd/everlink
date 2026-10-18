@@ -31,6 +31,7 @@ export const roles: Record<RoleKey, RoleConfig> = {
     tagline: 'Share your experience. Open new doors.',
     welcome: 'Welcome back. Students are looking for the guidance only you can give.',
     points: [
+      'Verified IGDTUW alumni only, so students know who they meet',
       'Mentor students on your own terms',
       'Offer referrals, mock interviews and internships',
       'Stay connected with your batch and peers in industry',
