@@ -35,6 +35,9 @@ class GraphSchema:
                 "CREATE INDEX idx_skill_name IF NOT EXISTS FOR (s:Skill) ON (s.name)",
                 "CREATE INDEX idx_project_status IF NOT EXISTS FOR (p:ResearchProject) ON (p.status)",
                 "CREATE INDEX idx_achievement_type IF NOT EXISTS FOR (a:Achievement) ON (a.type)",
+                "CREATE CONSTRAINT unique_department_name IF NOT EXISTS FOR (d:Department) REQUIRE d.name IS UNIQUE",
+                "CREATE CONSTRAINT unique_success_story_id IF NOT EXISTS FOR (s:SeniorSuccessStory) REQUIRE s.id IS UNIQUE",
+                "CREATE CONSTRAINT unique_community_post_id IF NOT EXISTS FOR (p:CommunityPost) REQUIRE p.id IS UNIQUE",
             ]
 
             for query in queries:

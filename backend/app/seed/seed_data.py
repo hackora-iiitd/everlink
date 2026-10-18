@@ -251,4 +251,13 @@ def seed_database(session):
     print(f"✓ Created {created_count} people")
     print(f"Total people in database: {repo.count()}")
 
+    from .community_content import seed_community_content
+
+    content_counts = seed_community_content(session)
+    print(
+        "✓ Seeded fictional community content: "
+        f"{content_counts['profiles']} personas, {content_counts['stories']} stories, "
+        f"{content_counts['opportunities']} opportunities, {content_counts['posts']} posts"
+    )
+
     return created_count

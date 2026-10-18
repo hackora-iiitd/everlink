@@ -15,6 +15,12 @@ export default function Navigation() {
   const [open, setOpen] = useState(false)
   const session = useSession()
   const cta = session ? { to: dashboardPath(session), label: 'My Dashboard' } : { to: '/signin', label: 'Sign In' }
+  const authLinks = [
+    ...(session?.role === 'student' ? [{ to: '/senior-success', label: 'Senior Success' }] : []),
+    ...(session ? [{ to: '/opportunities-stories', label: 'Opportunities & Stories' }] : []),
+    ...(session && (session.role === 'admin' || (session.role === 'alumni' && session.verified)) ? [{ to: '/opportunities-stories/new', label: 'Create Post' }] : []),
+  ]
+  const visibleLinks = [...links, ...authLinks]
 
   const linkClass = ({ isActive }: { isActive: boolean }) =>
     `text-[0.95rem] font-semibold transition-colors ${
@@ -27,7 +33,7 @@ export default function Navigation() {
         <Logo />
 
         <div className="hidden items-center gap-6 lg:flex">
-          {links.map((l) => (
+          {visibleLinks.map((l) => (
             <NavLink key={l.to} to={l.to} className={linkClass}>
               {l.label}
             </NavLink>
@@ -54,7 +60,7 @@ export default function Navigation() {
       {open && (
         <div className="border-t border-forest-green/10 bg-white-surface px-5 pb-5 pt-3 lg:hidden">
           <div className="flex flex-col gap-1">
-            {links.map((l) => (
+            {visibleLinks.map((l) => (
               <NavLink
                 key={l.to}
                 to={l.to}

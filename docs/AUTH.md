@@ -14,6 +14,8 @@ Everything is simulated in the browser (`frontend/src/lib/demoSession.ts`). It i
 the domain check, route guards and alumni "approval" can all be bypassed from the browser console.
 `VITE_DEMO_MODE=false` hides the demo shortcuts (simulated email, simulated LinkedIn, "Simulate approval").
 
+The Opportunities & Stories publishing roles and admin hide/restore controls are also client-side only. Posts and moderation state are stored in browser `localStorage`; there is no server-side content API or authorization yet. Do not treat authorship, verification, moderation, or post visibility as trusted security decisions.
+
 Flows:
 - Student / professor: register → `/verify-email` → onboarding → dashboard. Login rejects non-`@igdtuw.ac.in` addresses.
 - Alumni: `/join/alumni` → LinkedIn → `/join/alumni/details` (IGDTUW claim + work + mentoring) → `/verify/alumni` (pending) → dashboard only once `verified`.

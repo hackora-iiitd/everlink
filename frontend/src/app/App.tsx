@@ -1,4 +1,5 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom'
+import type { ReactNode } from 'react'
 import Navigation from '../components/layout/Navigation'
 import Home from '../pages/Home'
 import Search from '../pages/Search'
@@ -24,7 +25,20 @@ import ProfessorDashboard from '../pages/professor/ProfessorDashboard'
 import StudentDashboard from '../pages/student/StudentDashboard'
 import AdminDashboard from '../pages/admin/AdminDashboard'
 import RequireRole from '../components/auth/RequireRole'
+import SeniorSuccess from '../pages/student/SeniorSuccess'
+import OpportunitiesStories from '../pages/community/OpportunitiesStories'
+import CommunityPostDetail from '../pages/community/CommunityPostDetail'
+import CreateCommunityPost from '../pages/community/CreateCommunityPost'
+import { useSession } from '../lib/demoSession'
 import './App.css'
+
+function RequirePostAuthor({ children }: { children: ReactNode }) {
+  const session = useSession()
+  if (!session) return <Navigate to="/signin" replace />
+  if (session.role === 'alumni' && !session.verified) return <Navigate to="/verify/alumni" replace />
+  if (session.role !== 'alumni' && session.role !== 'admin') return <Navigate to="/opportunities-stories" replace />
+  return <>{children}</>
+}
 
 function App() {
   return (
@@ -39,6 +53,10 @@ function App() {
           <Route path="/features" element={<Features />} />
           <Route path="/explore" element={<Explore />} />
           <Route path="/about" element={<About />} />
+          <Route path="/opportunities-stories" element={<OpportunitiesStories />} />
+          <Route path="/opportunities-stories/new" element={<RequirePostAuthor><CreateCommunityPost /></RequirePostAuthor>} />
+          <Route path="/opportunities-stories/edit/:id" element={<RequirePostAuthor><CreateCommunityPost /></RequirePostAuthor>} />
+          <Route path="/opportunities-stories/:id" element={<CommunityPostDetail />} />
 
           {/* Auth portals */}
           <Route path="/signin" element={<SignInChooser />} />
@@ -50,6 +68,8 @@ function App() {
           <Route path="/verify-email" element={<VerifyEmail />} />
           <Route path="/onboarding/student" element={<StudentOnboarding />} />
           <Route path="/dashboard/student" element={<RequireRole role="student"><StudentDashboard /></RequireRole>} />
+          <Route path="/senior-success" element={<RequireRole role="student"><SeniorSuccess /></RequireRole>} />
+          <Route path="/senior-success/:kind/:id" element={<RequireRole role="student"><SeniorSuccess /></RequireRole>} />
 
           {/* Alumni: LinkedIn only, then education verification */}
           <Route path="/join/alumni" element={<AlumniJoin />} />

@@ -13,24 +13,22 @@ class PersonRepository:
     def create_person(self, person: Person) -> bool:
         """Create a person node."""
         query = """
-        CREATE (p:Person {
-            id: $id,
-            name: $name,
-            role: $role,
-            headline: $headline,
-            department: $department,
-            graduation_year: $graduation_year,
-            current_position: $current_position,
-            bio: $bio,
-            skills: $skills,
-            interests: $interests,
-            research_topics: $research_topics,
-            years_of_experience: $years_of_experience,
-            profile_completeness: $profile_completeness,
-            data_origin: $data_origin,
-            created_at: datetime($created_at),
-            updated_at: datetime($updated_at)
-        })
+        MERGE (p:Person {id: $id})
+        SET p.name = $name,
+            p.role = $role,
+            p.headline = $headline,
+            p.department = $department,
+            p.graduation_year = $graduation_year,
+            p.current_position = $current_position,
+            p.bio = $bio,
+            p.skills = $skills,
+            p.interests = $interests,
+            p.research_topics = $research_topics,
+            p.years_of_experience = $years_of_experience,
+            p.profile_completeness = $profile_completeness,
+            p.data_origin = $data_origin,
+            p.created_at = datetime($created_at),
+            p.updated_at = datetime($updated_at)
         RETURN p
         """
         try:

@@ -1,5 +1,6 @@
 import { useMemo, useState } from 'react'
 import type { FormEvent } from 'react'
+import { Link } from 'react-router-dom'
 import { Check, X } from 'lucide-react'
 import DashboardShell, { Chips, SampleTag, Section, btnGhost, btnPrimary } from '../../components/dashboard/DashboardShell'
 import { Field, PrimaryButton, SelectInput, TextInput, inputCls } from '../../components/ui/form'
@@ -15,6 +16,7 @@ const sections = [
   { id: 'students', label: 'Recommended students' },
   { id: 'connect', label: 'Alumni Connect' },
   { id: 'share', label: 'Share an opportunity' },
+  { id: 'community-posts', label: 'Community posts' },
   { id: 'events', label: 'Events & reunions' },
   { id: 'impact', label: 'Impact overview' },
 ]
@@ -111,6 +113,14 @@ export default function AlumniDashboard() {
             ))}
           </ul>
         )}
+      </Section>
+
+      <Section id="community-posts" title="Opportunities & Stories" description="Create and manage posts in the shared community feed. Posts are stored in this browser and are not company-verified.">
+        <div className="flex flex-wrap gap-3">
+          {session?.verified && <Link to="/opportunities-stories/new" className={btnPrimary}>Create a community post</Link>}
+          <Link to="/opportunities-stories?author=me" className={btnGhost}>Manage my posts</Link>
+          <Link to="/opportunities-stories" className={btnGhost}>Browse community feed</Link>
+        </div>
       </Section>
 
       <Section id="events" title="Events and reunions" action={<SampleTag />}>

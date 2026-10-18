@@ -85,6 +85,14 @@ Frontend runs at: **http://localhost:5173**
 - **Design**: Buttermilk/Midnight Blue color scheme, editorial typography, warm/intellectual aesthetic
 - **State**: React hooks with axios for API calls
 
+### Senior Success and Opportunities & Stories
+
+- Students can browse/search fictional career stories and campus opportunity examples at `/senior-success`.
+- The shared `/opportunities-stories` feed contains searchable, filterable community posts and fictional development examples.
+- The source fixture is `frontend/public/community-content.json`; the frontend reads it directly, and `backend/app/seed/community_content.py` seeds corresponding graph records when `python seed.py` is run from `backend`.
+- User-created posts and admin hide/restore actions are stored in browser `localStorage` only. They are not shared across devices or backed by a content API.
+- Alumni publishing and admin moderation checks are browser-side prototype UX, not authorization controls. The feed labels community posts as unverified and clearly marks all fixture records as fictional, not live vacancies or verified outcomes.
+
 ### Synthetic Data
 
 - 40+ people (students, seniors, alumni, professors)

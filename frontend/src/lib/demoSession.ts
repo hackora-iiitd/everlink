@@ -114,6 +114,10 @@ export const nameFromEmail = (email: string) =>
 
 /* ---------- persistent state hook ---------- */
 
+export function writePersistentState<T>(key: string, value: T) {
+  write('local', key, value)
+}
+
 export function usePersistentState<T>(key: string, initial: T): [T, (v: T | ((p: T) => T)) => void] {
   const [value, setValue] = useState<T>(() => read<T>('local', key) ?? initial)
   const update = (v: T | ((p: T) => T)) =>

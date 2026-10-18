@@ -1,0 +1,3317 @@
+{
+  "provenance": "All profiles, stories, organizations, and posts in this fixture are fictional development records. No record represents a verified real-world outcome or live opportunity.",
+  "profiles": [
+    {
+      "id": "fictional-alum-01",
+      "name": "Aarohi Shah",
+      "role": "senior",
+      "graduationYear": 2014,
+      "degree": "B.Tech ? Computer Science",
+      "department": "Computer Science",
+      "track": "Software engineering",
+      "headline": "Fictional development persona ? Software engineering",
+      "organization": "Cedar Labs (fictional)",
+      "currentRole": "Software Engineering Internship",
+      "skills": [
+        "Python",
+        "REST APIs",
+        "Git"
+      ],
+      "interests": [
+        "developer tools"
+      ],
+      "fictional": true
+    },
+    {
+      "id": "fictional-alum-02",
+      "name": "Meera Malik",
+      "role": "alumni",
+      "graduationYear": 2015,
+      "degree": "B.Tech ? Computer Science",
+      "department": "Computer Science",
+      "track": "AI and machine learning",
+      "headline": "Fictional development persona ? AI and machine learning",
+      "organization": "Northstar Research Lab (fictional)",
+      "currentRole": "Machine Learning Research Internship",
+      "skills": [
+        "Python",
+        "Machine Learning",
+        "PyTorch"
+      ],
+      "interests": [
+        "responsible machine learning"
+      ],
+      "fictional": true
+    },
+    {
+      "id": "fictional-alum-03",
+      "name": "Ananya Bhat",
+      "role": "alumni",
+      "graduationYear": 2016,
+      "degree": "B.Tech ? Mathematics and Computing",
+      "department": "Mathematics and Computing",
+      "track": "Data science and analytics",
+      "headline": "Fictional development persona ? Data science and analytics",
+      "organization": "Fieldnote Analytics (fictional)",
+      "currentRole": "Data Analyst Internship",
+      "skills": [
+        "SQL",
+        "Python",
+        "Data Visualization"
+      ],
+      "interests": [
+        "public-interest analytics"
+      ],
+      "fictional": true
+    },
+    {
+      "id": "fictional-alum-04",
+      "name": "Ishita Chawla",
+      "role": "alumni",
+      "graduationYear": 2017,
+      "degree": "B.Tech ? Information Technology",
+      "department": "Information Technology",
+      "track": "Cybersecurity",
+      "headline": "Fictional development persona ? Cybersecurity",
+      "organization": "Redwood Security (fictional)",
+      "currentRole": "Security Research Fellowship",
+      "skills": [
+        "Linux",
+        "Network Security",
+        "Python"
+      ],
+      "interests": [
+        "application security"
+      ],
+      "fictional": true
+    },
+    {
+      "id": "fictional-alum-05",
+      "name": "Kavya Kapoor",
+      "role": "senior",
+      "graduationYear": 2018,
+      "degree": "B.Tech ? Information Technology",
+      "department": "Information Technology",
+      "track": "Cloud and DevOps",
+      "headline": "Fictional development persona ? Cloud and DevOps",
+      "organization": "Cloudline Systems (fictional)",
+      "currentRole": "Cloud Engineering Internship",
+      "skills": [
+        "Linux",
+        "Docker",
+        "AWS"
+      ],
+      "interests": [
+        "reliable cloud infrastructure"
+      ],
+      "fictional": true
+    },
+    {
+      "id": "fictional-alum-06",
+      "name": "Nisha Iyer",
+      "role": "alumni",
+      "graduationYear": 2019,
+      "degree": "BBA ? Technology Management",
+      "department": "Technology Management",
+      "track": "Product management",
+      "headline": "Fictional development persona ? Product management",
+      "organization": "Mosaic Product Studio (fictional)",
+      "currentRole": "Associate Product Fellowship",
+      "skills": [
+        "Product Discovery",
+        "Analytics",
+        "Communication"
+      ],
+      "interests": [
+        "accessible product design"
+      ],
+      "fictional": true
+    },
+    {
+      "id": "fictional-alum-07",
+      "name": "Riya Roy",
+      "role": "alumni",
+      "graduationYear": 2020,
+      "degree": "B.Des ? Interaction Design",
+      "department": "Interaction Design",
+      "track": "UI/UX design",
+      "headline": "Fictional development persona ? UI/UX design",
+      "organization": "Paperplane Design (fictional)",
+      "currentRole": "Product Design Internship",
+      "skills": [
+        "Figma",
+        "Accessibility",
+        "User Research"
+      ],
+      "interests": [
+        "inclusive design"
+      ],
+      "fictional": true
+    },
+    {
+      "id": "fictional-alum-08",
+      "name": "Sana Reddy",
+      "role": "alumni",
+      "graduationYear": 2021,
+      "degree": "B.Tech ? Electronics and Communication",
+      "department": "Electronics and Communication",
+      "track": "Research and academia",
+      "headline": "Fictional development persona ? Research and academia",
+      "organization": "Institute for Applied Signals (fictional)",
+      "currentRole": "Research Assistantship",
+      "skills": [
+        "Research Methods",
+        "Python",
+        "Technical Writing"
+      ],
+      "interests": [
+        "signal processing"
+      ],
+      "fictional": true
+    },
+    {
+      "id": "fictional-alum-09",
+      "name": "Tara Mehta",
+      "role": "senior",
+      "graduationYear": 2022,
+      "degree": "B.Tech ? Biomedical Engineering",
+      "department": "Biomedical Engineering",
+      "track": "Healthcare technology",
+      "headline": "Fictional development persona ? Healthcare technology",
+      "organization": "Carepath Studio (fictional)",
+      "currentRole": "Health Technology Design Challenge",
+      "skills": [
+        "Health Data",
+        "Python",
+        "Privacy"
+      ],
+      "interests": [
+        "healthcare technology"
+      ],
+      "fictional": true
+    },
+    {
+      "id": "fictional-alum-10",
+      "name": "Veda Sethi",
+      "role": "alumni",
+      "graduationYear": 2023,
+      "degree": "B.Tech ? Computer Science",
+      "department": "Computer Science",
+      "track": "Fintech",
+      "headline": "Fictional development persona ? Fintech",
+      "organization": "Ledgerleaf (fictional)",
+      "currentRole": "Fintech Engineering Internship",
+      "skills": [
+        "Java",
+        "SQL",
+        "Security"
+      ],
+      "interests": [
+        "financial inclusion"
+      ],
+      "fictional": true
+    },
+    {
+      "id": "fictional-alum-11",
+      "name": "Aditi Verma",
+      "role": "alumni",
+      "graduationYear": 2024,
+      "degree": "B.Tech ? Environmental Engineering",
+      "department": "Environmental Engineering",
+      "track": "Climate and social impact",
+      "headline": "Fictional development persona ? Climate and social impact",
+      "organization": "Common Ground Initiative (fictional)",
+      "currentRole": "Climate Solutions Fellowship",
+      "skills": [
+        "Impact Measurement",
+        "Research",
+        "Communication"
+      ],
+      "interests": [
+        "climate resilience"
+      ],
+      "fictional": true
+    },
+    {
+      "id": "fictional-alum-12",
+      "name": "Diya Gill",
+      "role": "alumni",
+      "graduationYear": 2025,
+      "degree": "B.Tech ? Computer Science",
+      "department": "Computer Science",
+      "track": "Startups and entrepreneurship",
+      "headline": "Fictional development persona ? Startups and entrepreneurship",
+      "organization": "Loopseed (fictional)",
+      "currentRole": "Student Venture Challenge",
+      "skills": [
+        "Prototyping",
+        "Customer Discovery",
+        "Pitching"
+      ],
+      "interests": [
+        "civic technology"
+      ],
+      "fictional": true
+    },
+    {
+      "id": "fictional-alum-13",
+      "name": "Mira Bose",
+      "role": "senior",
+      "graduationYear": 2026,
+      "degree": "BBA ? Business Analytics",
+      "department": "Business Analytics",
+      "track": "Consulting and business",
+      "headline": "Fictional development persona ? Consulting and business",
+      "organization": "Meridian Advisory (fictional)",
+      "currentRole": "Business Analyst Internship",
+      "skills": [
+        "Excel",
+        "Structured Problem Solving",
+        "Presentation"
+      ],
+      "interests": [
+        "technology strategy"
+      ],
+      "fictional": true
+    },
+    {
+      "id": "fictional-alum-14",
+      "name": "Neha Jain",
+      "role": "alumni",
+      "graduationYear": 2014,
+      "degree": "B.Tech ? Computer Science",
+      "department": "Computer Science",
+      "track": "Software engineering",
+      "headline": "Fictional development persona ? Software engineering",
+      "organization": "Cedar Labs (fictional)",
+      "currentRole": "Software Engineering Internship",
+      "skills": [
+        "Python",
+        "REST APIs",
+        "Git"
+      ],
+      "interests": [
+        "developer tools"
+      ],
+      "fictional": true
+    },
+    {
+      "id": "fictional-alum-15",
+      "name": "Pallavi Dutta",
+      "role": "alumni",
+      "graduationYear": 2015,
+      "degree": "B.Tech ? Computer Science",
+      "department": "Computer Science",
+      "track": "AI and machine learning",
+      "headline": "Fictional development persona ? AI and machine learning",
+      "organization": "Northstar Research Lab (fictional)",
+      "currentRole": "Machine Learning Research Internship",
+      "skills": [
+        "Python",
+        "Machine Learning",
+        "PyTorch"
+      ],
+      "interests": [
+        "responsible machine learning"
+      ],
+      "fictional": true
+    },
+    {
+      "id": "fictional-alum-16",
+      "name": "Saira Rao",
+      "role": "alumni",
+      "graduationYear": 2016,
+      "degree": "B.Tech ? Mathematics and Computing",
+      "department": "Mathematics and Computing",
+      "track": "Data science and analytics",
+      "headline": "Fictional development persona ? Data science and analytics",
+      "organization": "Fieldnote Analytics (fictional)",
+      "currentRole": "Data Analyst Internship",
+      "skills": [
+        "SQL",
+        "Python",
+        "Data Visualization"
+      ],
+      "interests": [
+        "public-interest analytics"
+      ],
+      "fictional": true
+    },
+    {
+      "id": "fictional-alum-17",
+      "name": "Tanvi Das",
+      "role": "senior",
+      "graduationYear": 2017,
+      "degree": "B.Tech ? Information Technology",
+      "department": "Information Technology",
+      "track": "Cybersecurity",
+      "headline": "Fictional development persona ? Cybersecurity",
+      "organization": "Redwood Security (fictional)",
+      "currentRole": "Security Research Fellowship",
+      "skills": [
+        "Linux",
+        "Network Security",
+        "Python"
+      ],
+      "interests": [
+        "application security"
+      ],
+      "fictional": true
+    },
+    {
+      "id": "fictional-alum-18",
+      "name": "Uma Menon",
+      "role": "alumni",
+      "graduationYear": 2018,
+      "degree": "B.Tech ? Information Technology",
+      "department": "Information Technology",
+      "track": "Cloud and DevOps",
+      "headline": "Fictional development persona ? Cloud and DevOps",
+      "organization": "Cloudline Systems (fictional)",
+      "currentRole": "Cloud Engineering Internship",
+      "skills": [
+        "Linux",
+        "Docker",
+        "AWS"
+      ],
+      "interests": [
+        "reliable cloud infrastructure"
+      ],
+      "fictional": true
+    },
+    {
+      "id": "fictional-alum-19",
+      "name": "Yamini Arora",
+      "role": "alumni",
+      "graduationYear": 2019,
+      "degree": "BBA ? Technology Management",
+      "department": "Technology Management",
+      "track": "Product management",
+      "headline": "Fictional development persona ? Product management",
+      "organization": "Mosaic Product Studio (fictional)",
+      "currentRole": "Associate Product Fellowship",
+      "skills": [
+        "Product Discovery",
+        "Analytics",
+        "Communication"
+      ],
+      "interests": [
+        "accessible product design"
+      ],
+      "fictional": true
+    },
+    {
+      "id": "fictional-alum-20",
+      "name": "Zoya Sen",
+      "role": "alumni",
+      "graduationYear": 2020,
+      "degree": "B.Des ? Interaction Design",
+      "department": "Interaction Design",
+      "track": "UI/UX design",
+      "headline": "Fictional development persona ? UI/UX design",
+      "organization": "Paperplane Design (fictional)",
+      "currentRole": "Product Design Internship",
+      "skills": [
+        "Figma",
+        "Accessibility",
+        "User Research"
+      ],
+      "interests": [
+        "inclusive design"
+      ],
+      "fictional": true
+    },
+    {
+      "id": "fictional-alum-21",
+      "name": "Avni Khanna",
+      "role": "senior",
+      "graduationYear": 2021,
+      "degree": "B.Tech ? Electronics and Communication",
+      "department": "Electronics and Communication",
+      "track": "Research and academia",
+      "headline": "Fictional development persona ? Research and academia",
+      "organization": "Institute for Applied Signals (fictional)",
+      "currentRole": "Research Assistantship",
+      "skills": [
+        "Research Methods",
+        "Python",
+        "Technical Writing"
+      ],
+      "interests": [
+        "signal processing"
+      ],
+      "fictional": true
+    },
+    {
+      "id": "fictional-alum-22",
+      "name": "Bhavya Gupta",
+      "role": "alumni",
+      "graduationYear": 2022,
+      "degree": "B.Tech ? Biomedical Engineering",
+      "department": "Biomedical Engineering",
+      "track": "Healthcare technology",
+      "headline": "Fictional development persona ? Healthcare technology",
+      "organization": "Carepath Studio (fictional)",
+      "currentRole": "Health Technology Design Challenge",
+      "skills": [
+        "Health Data",
+        "Python",
+        "Privacy"
+      ],
+      "interests": [
+        "healthcare technology"
+      ],
+      "fictional": true
+    },
+    {
+      "id": "fictional-alum-23",
+      "name": "Charu Saxena",
+      "role": "alumni",
+      "graduationYear": 2023,
+      "degree": "B.Tech ? Computer Science",
+      "department": "Computer Science",
+      "track": "Fintech",
+      "headline": "Fictional development persona ? Fintech",
+      "organization": "Ledgerleaf (fictional)",
+      "currentRole": "Fintech Engineering Internship",
+      "skills": [
+        "Java",
+        "SQL",
+        "Security"
+      ],
+      "interests": [
+        "financial inclusion"
+      ],
+      "fictional": true
+    },
+    {
+      "id": "fictional-alum-24",
+      "name": "Esha Nair",
+      "role": "alumni",
+      "graduationYear": 2024,
+      "degree": "B.Tech ? Environmental Engineering",
+      "department": "Environmental Engineering",
+      "track": "Climate and social impact",
+      "headline": "Fictional development persona ? Climate and social impact",
+      "organization": "Common Ground Initiative (fictional)",
+      "currentRole": "Climate Solutions Fellowship",
+      "skills": [
+        "Impact Measurement",
+        "Research",
+        "Communication"
+      ],
+      "interests": [
+        "climate resilience"
+      ],
+      "fictional": true
+    },
+    {
+      "id": "fictional-alum-25",
+      "name": "Gauri Khan",
+      "role": "senior",
+      "graduationYear": 2025,
+      "degree": "B.Tech ? Computer Science",
+      "department": "Computer Science",
+      "track": "Startups and entrepreneurship",
+      "headline": "Fictional development persona ? Startups and entrepreneurship",
+      "organization": "Loopseed (fictional)",
+      "currentRole": "Student Venture Challenge",
+      "skills": [
+        "Prototyping",
+        "Customer Discovery",
+        "Pitching"
+      ],
+      "interests": [
+        "civic technology"
+      ],
+      "fictional": true
+    },
+    {
+      "id": "fictional-alum-26",
+      "name": "Ira Pillai",
+      "role": "alumni",
+      "graduationYear": 2026,
+      "degree": "BBA ? Business Analytics",
+      "department": "Business Analytics",
+      "track": "Consulting and business",
+      "headline": "Fictional development persona ? Consulting and business",
+      "organization": "Meridian Advisory (fictional)",
+      "currentRole": "Business Analyst Internship",
+      "skills": [
+        "Excel",
+        "Structured Problem Solving",
+        "Presentation"
+      ],
+      "interests": [
+        "technology strategy"
+      ],
+      "fictional": true
+    },
+    {
+      "id": "fictional-alum-27",
+      "name": "Aarohi Shah",
+      "role": "alumni",
+      "graduationYear": 2014,
+      "degree": "B.Tech ? Computer Science",
+      "department": "Computer Science",
+      "track": "Software engineering",
+      "headline": "Fictional development persona ? Software engineering",
+      "organization": "Cedar Labs (fictional)",
+      "currentRole": "Software Engineering Internship",
+      "skills": [
+        "Python",
+        "REST APIs",
+        "Git"
+      ],
+      "interests": [
+        "developer tools"
+      ],
+      "fictional": true
+    },
+    {
+      "id": "fictional-alum-28",
+      "name": "Meera Malik",
+      "role": "alumni",
+      "graduationYear": 2015,
+      "degree": "B.Tech ? Computer Science",
+      "department": "Computer Science",
+      "track": "AI and machine learning",
+      "headline": "Fictional development persona ? AI and machine learning",
+      "organization": "Northstar Research Lab (fictional)",
+      "currentRole": "Machine Learning Research Internship",
+      "skills": [
+        "Python",
+        "Machine Learning",
+        "PyTorch"
+      ],
+      "interests": [
+        "responsible machine learning"
+      ],
+      "fictional": true
+    },
+    {
+      "id": "fictional-alum-29",
+      "name": "Ananya Bhat",
+      "role": "senior",
+      "graduationYear": 2016,
+      "degree": "B.Tech ? Mathematics and Computing",
+      "department": "Mathematics and Computing",
+      "track": "Data science and analytics",
+      "headline": "Fictional development persona ? Data science and analytics",
+      "organization": "Fieldnote Analytics (fictional)",
+      "currentRole": "Data Analyst Internship",
+      "skills": [
+        "SQL",
+        "Python",
+        "Data Visualization"
+      ],
+      "interests": [
+        "public-interest analytics"
+      ],
+      "fictional": true
+    },
+    {
+      "id": "fictional-alum-30",
+      "name": "Ishita Chawla",
+      "role": "alumni",
+      "graduationYear": 2017,
+      "degree": "B.Tech ? Information Technology",
+      "department": "Information Technology",
+      "track": "Cybersecurity",
+      "headline": "Fictional development persona ? Cybersecurity",
+      "organization": "Redwood Security (fictional)",
+      "currentRole": "Security Research Fellowship",
+      "skills": [
+        "Linux",
+        "Network Security",
+        "Python"
+      ],
+      "interests": [
+        "application security"
+      ],
+      "fictional": true
+    },
+    {
+      "id": "fictional-alum-31",
+      "name": "Kavya Kapoor",
+      "role": "alumni",
+      "graduationYear": 2018,
+      "degree": "B.Tech ? Information Technology",
+      "department": "Information Technology",
+      "track": "Cloud and DevOps",
+      "headline": "Fictional development persona ? Cloud and DevOps",
+      "organization": "Cloudline Systems (fictional)",
+      "currentRole": "Cloud Engineering Internship",
+      "skills": [
+        "Linux",
+        "Docker",
+        "AWS"
+      ],
+      "interests": [
+        "reliable cloud infrastructure"
+      ],
+      "fictional": true
+    },
+    {
+      "id": "fictional-alum-32",
+      "name": "Nisha Iyer",
+      "role": "alumni",
+      "graduationYear": 2019,
+      "degree": "BBA ? Technology Management",
+      "department": "Technology Management",
+      "track": "Product management",
+      "headline": "Fictional development persona ? Product management",
+      "organization": "Mosaic Product Studio (fictional)",
+      "currentRole": "Associate Product Fellowship",
+      "skills": [
+        "Product Discovery",
+        "Analytics",
+        "Communication"
+      ],
+      "interests": [
+        "accessible product design"
+      ],
+      "fictional": true
+    },
+    {
+      "id": "fictional-alum-33",
+      "name": "Riya Roy",
+      "role": "senior",
+      "graduationYear": 2020,
+      "degree": "B.Des ? Interaction Design",
+      "department": "Interaction Design",
+      "track": "UI/UX design",
+      "headline": "Fictional development persona ? UI/UX design",
+      "organization": "Paperplane Design (fictional)",
+      "currentRole": "Product Design Internship",
+      "skills": [
+        "Figma",
+        "Accessibility",
+        "User Research"
+      ],
+      "interests": [
+        "inclusive design"
+      ],
+      "fictional": true
+    },
+    {
+      "id": "fictional-alum-34",
+      "name": "Sana Reddy",
+      "role": "alumni",
+      "graduationYear": 2021,
+      "degree": "B.Tech ? Electronics and Communication",
+      "department": "Electronics and Communication",
+      "track": "Research and academia",
+      "headline": "Fictional development persona ? Research and academia",
+      "organization": "Institute for Applied Signals (fictional)",
+      "currentRole": "Research Assistantship",
+      "skills": [
+        "Research Methods",
+        "Python",
+        "Technical Writing"
+      ],
+      "interests": [
+        "signal processing"
+      ],
+      "fictional": true
+    },
+    {
+      "id": "fictional-alum-35",
+      "name": "Tara Mehta",
+      "role": "alumni",
+      "graduationYear": 2022,
+      "degree": "B.Tech ? Biomedical Engineering",
+      "department": "Biomedical Engineering",
+      "track": "Healthcare technology",
+      "headline": "Fictional development persona ? Healthcare technology",
+      "organization": "Carepath Studio (fictional)",
+      "currentRole": "Health Technology Design Challenge",
+      "skills": [
+        "Health Data",
+        "Python",
+        "Privacy"
+      ],
+      "interests": [
+        "healthcare technology"
+      ],
+      "fictional": true
+    },
+    {
+      "id": "fictional-alum-36",
+      "name": "Veda Sethi",
+      "role": "alumni",
+      "graduationYear": 2023,
+      "degree": "B.Tech ? Computer Science",
+      "department": "Computer Science",
+      "track": "Fintech",
+      "headline": "Fictional development persona ? Fintech",
+      "organization": "Ledgerleaf (fictional)",
+      "currentRole": "Fintech Engineering Internship",
+      "skills": [
+        "Java",
+        "SQL",
+        "Security"
+      ],
+      "interests": [
+        "financial inclusion"
+      ],
+      "fictional": true
+    },
+    {
+      "id": "fictional-alum-37",
+      "name": "Aditi Verma",
+      "role": "senior",
+      "graduationYear": 2024,
+      "degree": "B.Tech ? Environmental Engineering",
+      "department": "Environmental Engineering",
+      "track": "Climate and social impact",
+      "headline": "Fictional development persona ? Climate and social impact",
+      "organization": "Common Ground Initiative (fictional)",
+      "currentRole": "Climate Solutions Fellowship",
+      "skills": [
+        "Impact Measurement",
+        "Research",
+        "Communication"
+      ],
+      "interests": [
+        "climate resilience"
+      ],
+      "fictional": true
+    },
+    {
+      "id": "fictional-alum-38",
+      "name": "Diya Gill",
+      "role": "alumni",
+      "graduationYear": 2025,
+      "degree": "B.Tech ? Computer Science",
+      "department": "Computer Science",
+      "track": "Startups and entrepreneurship",
+      "headline": "Fictional development persona ? Startups and entrepreneurship",
+      "organization": "Loopseed (fictional)",
+      "currentRole": "Student Venture Challenge",
+      "skills": [
+        "Prototyping",
+        "Customer Discovery",
+        "Pitching"
+      ],
+      "interests": [
+        "civic technology"
+      ],
+      "fictional": true
+    },
+    {
+      "id": "fictional-alum-39",
+      "name": "Mira Bose",
+      "role": "alumni",
+      "graduationYear": 2026,
+      "degree": "BBA ? Business Analytics",
+      "department": "Business Analytics",
+      "track": "Consulting and business",
+      "headline": "Fictional development persona ? Consulting and business",
+      "organization": "Meridian Advisory (fictional)",
+      "currentRole": "Business Analyst Internship",
+      "skills": [
+        "Excel",
+        "Structured Problem Solving",
+        "Presentation"
+      ],
+      "interests": [
+        "technology strategy"
+      ],
+      "fictional": true
+    },
+    {
+      "id": "fictional-alum-40",
+      "name": "Neha Jain",
+      "role": "alumni",
+      "graduationYear": 2014,
+      "degree": "B.Tech ? Computer Science",
+      "department": "Computer Science",
+      "track": "Software engineering",
+      "headline": "Fictional development persona ? Software engineering",
+      "organization": "Cedar Labs (fictional)",
+      "currentRole": "Software Engineering Internship",
+      "skills": [
+        "Python",
+        "REST APIs",
+        "Git"
+      ],
+      "interests": [
+        "developer tools"
+      ],
+      "fictional": true
+    },
+    {
+      "id": "fictional-alum-41",
+      "name": "Pallavi Dutta",
+      "role": "senior",
+      "graduationYear": 2015,
+      "degree": "B.Tech ? Computer Science",
+      "department": "Computer Science",
+      "track": "AI and machine learning",
+      "headline": "Fictional development persona ? AI and machine learning",
+      "organization": "Northstar Research Lab (fictional)",
+      "currentRole": "Machine Learning Research Internship",
+      "skills": [
+        "Python",
+        "Machine Learning",
+        "PyTorch"
+      ],
+      "interests": [
+        "responsible machine learning"
+      ],
+      "fictional": true
+    },
+    {
+      "id": "fictional-alum-42",
+      "name": "Saira Rao",
+      "role": "alumni",
+      "graduationYear": 2016,
+      "degree": "B.Tech ? Mathematics and Computing",
+      "department": "Mathematics and Computing",
+      "track": "Data science and analytics",
+      "headline": "Fictional development persona ? Data science and analytics",
+      "organization": "Fieldnote Analytics (fictional)",
+      "currentRole": "Data Analyst Internship",
+      "skills": [
+        "SQL",
+        "Python",
+        "Data Visualization"
+      ],
+      "interests": [
+        "public-interest analytics"
+      ],
+      "fictional": true
+    },
+    {
+      "id": "fictional-alum-43",
+      "name": "Tanvi Das",
+      "role": "alumni",
+      "graduationYear": 2017,
+      "degree": "B.Tech ? Information Technology",
+      "department": "Information Technology",
+      "track": "Cybersecurity",
+      "headline": "Fictional development persona ? Cybersecurity",
+      "organization": "Redwood Security (fictional)",
+      "currentRole": "Security Research Fellowship",
+      "skills": [
+        "Linux",
+        "Network Security",
+        "Python"
+      ],
+      "interests": [
+        "application security"
+      ],
+      "fictional": true
+    },
+    {
+      "id": "fictional-alum-44",
+      "name": "Uma Menon",
+      "role": "alumni",
+      "graduationYear": 2018,
+      "degree": "B.Tech ? Information Technology",
+      "department": "Information Technology",
+      "track": "Cloud and DevOps",
+      "headline": "Fictional development persona ? Cloud and DevOps",
+      "organization": "Cloudline Systems (fictional)",
+      "currentRole": "Cloud Engineering Internship",
+      "skills": [
+        "Linux",
+        "Docker",
+        "AWS"
+      ],
+      "interests": [
+        "reliable cloud infrastructure"
+      ],
+      "fictional": true
+    },
+    {
+      "id": "fictional-alum-45",
+      "name": "Yamini Arora",
+      "role": "senior",
+      "graduationYear": 2019,
+      "degree": "BBA ? Technology Management",
+      "department": "Technology Management",
+      "track": "Product management",
+      "headline": "Fictional development persona ? Product management",
+      "organization": "Mosaic Product Studio (fictional)",
+      "currentRole": "Associate Product Fellowship",
+      "skills": [
+        "Product Discovery",
+        "Analytics",
+        "Communication"
+      ],
+      "interests": [
+        "accessible product design"
+      ],
+      "fictional": true
+    },
+    {
+      "id": "fictional-alum-46",
+      "name": "Zoya Sen",
+      "role": "alumni",
+      "graduationYear": 2020,
+      "degree": "B.Des ? Interaction Design",
+      "department": "Interaction Design",
+      "track": "UI/UX design",
+      "headline": "Fictional development persona ? UI/UX design",
+      "organization": "Paperplane Design (fictional)",
+      "currentRole": "Product Design Internship",
+      "skills": [
+        "Figma",
+        "Accessibility",
+        "User Research"
+      ],
+      "interests": [
+        "inclusive design"
+      ],
+      "fictional": true
+    },
+    {
+      "id": "fictional-alum-47",
+      "name": "Avni Khanna",
+      "role": "alumni",
+      "graduationYear": 2021,
+      "degree": "B.Tech ? Electronics and Communication",
+      "department": "Electronics and Communication",
+      "track": "Research and academia",
+      "headline": "Fictional development persona ? Research and academia",
+      "organization": "Institute for Applied Signals (fictional)",
+      "currentRole": "Research Assistantship",
+      "skills": [
+        "Research Methods",
+        "Python",
+        "Technical Writing"
+      ],
+      "interests": [
+        "signal processing"
+      ],
+      "fictional": true
+    },
+    {
+      "id": "fictional-alum-48",
+      "name": "Bhavya Gupta",
+      "role": "alumni",
+      "graduationYear": 2022,
+      "degree": "B.Tech ? Biomedical Engineering",
+      "department": "Biomedical Engineering",
+      "track": "Healthcare technology",
+      "headline": "Fictional development persona ? Healthcare technology",
+      "organization": "Carepath Studio (fictional)",
+      "currentRole": "Health Technology Design Challenge",
+      "skills": [
+        "Health Data",
+        "Python",
+        "Privacy"
+      ],
+      "interests": [
+        "healthcare technology"
+      ],
+      "fictional": true
+    },
+    {
+      "id": "fictional-alum-49",
+      "name": "Charu Saxena",
+      "role": "senior",
+      "graduationYear": 2023,
+      "degree": "B.Tech ? Computer Science",
+      "department": "Computer Science",
+      "track": "Fintech",
+      "headline": "Fictional development persona ? Fintech",
+      "organization": "Ledgerleaf (fictional)",
+      "currentRole": "Fintech Engineering Internship",
+      "skills": [
+        "Java",
+        "SQL",
+        "Security"
+      ],
+      "interests": [
+        "financial inclusion"
+      ],
+      "fictional": true
+    },
+    {
+      "id": "fictional-alum-50",
+      "name": "Esha Nair",
+      "role": "alumni",
+      "graduationYear": 2024,
+      "degree": "B.Tech ? Environmental Engineering",
+      "department": "Environmental Engineering",
+      "track": "Climate and social impact",
+      "headline": "Fictional development persona ? Climate and social impact",
+      "organization": "Common Ground Initiative (fictional)",
+      "currentRole": "Climate Solutions Fellowship",
+      "skills": [
+        "Impact Measurement",
+        "Research",
+        "Communication"
+      ],
+      "interests": [
+        "climate resilience"
+      ],
+      "fictional": true
+    },
+    {
+      "id": "fictional-alum-51",
+      "name": "Gauri Khan",
+      "role": "alumni",
+      "graduationYear": 2025,
+      "degree": "B.Tech ? Computer Science",
+      "department": "Computer Science",
+      "track": "Startups and entrepreneurship",
+      "headline": "Fictional development persona ? Startups and entrepreneurship",
+      "organization": "Loopseed (fictional)",
+      "currentRole": "Student Venture Challenge",
+      "skills": [
+        "Prototyping",
+        "Customer Discovery",
+        "Pitching"
+      ],
+      "interests": [
+        "civic technology"
+      ],
+      "fictional": true
+    },
+    {
+      "id": "fictional-alum-52",
+      "name": "Ira Pillai",
+      "role": "alumni",
+      "graduationYear": 2026,
+      "degree": "BBA ? Business Analytics",
+      "department": "Business Analytics",
+      "track": "Consulting and business",
+      "headline": "Fictional development persona ? Consulting and business",
+      "organization": "Meridian Advisory (fictional)",
+      "currentRole": "Business Analyst Internship",
+      "skills": [
+        "Excel",
+        "Structured Problem Solving",
+        "Presentation"
+      ],
+      "interests": [
+        "technology strategy"
+      ],
+      "fictional": true
+    }
+  ],
+  "stories": [
+    {
+      "id": "fictional-story-01",
+      "type": "story",
+      "fictional": true,
+      "authorPersonId": "fictional-alum-01",
+      "seniorName": "Aarohi Shah",
+      "graduationYear": 2014,
+      "degree": "B.Tech ? Computer Science",
+      "department": "Computer Science",
+      "title": "Software Engineering Internship",
+      "organization": "Cedar Labs (fictional)",
+      "opportunityType": "internship",
+      "year": 2020,
+      "summary": "Fictional learning record about preparing for a software engineering pathway. This is not a verified placement or testimonial.",
+      "startingPoint": "The fictional persona explored developer tools through coursework and a small self-directed project.",
+      "preparation": "Built a small API project, practiced data structures, and reviewed HTTP and testing fundamentals.",
+      "skills": [
+        "Python",
+        "REST APIs",
+        "Git"
+      ],
+      "resources": [
+        "Course notes and official documentation",
+        "Peer review and a small practice project"
+      ],
+      "challenges": "Balancing focused preparation with coursework and learning to explain decisions clearly.",
+      "lessons": "A small, well-documented project and specific questions made the preparation more manageable.",
+      "timeline": [
+        {
+          "label": "Explore",
+          "detail": "Compared role requirements with current skills."
+        },
+        {
+          "label": "Prepare",
+          "detail": "Practiced core skills and reviewed feedback."
+        },
+        {
+          "label": "Reflect",
+          "detail": "Recorded lessons to guide the next learning step."
+        }
+      ],
+      "advice": "For a similar software engineering path, start with one small project, keep notes on what you learn, and verify current requirements from official sources.",
+      "tags": [
+        "Software engineering",
+        "Python",
+        "REST APIs",
+        "Git"
+      ],
+      "relatedOpportunityId": "fictional-opportunity-01"
+    },
+    {
+      "id": "fictional-story-02",
+      "type": "story",
+      "fictional": true,
+      "authorPersonId": "fictional-alum-03",
+      "seniorName": "Ananya Bhat",
+      "graduationYear": 2016,
+      "degree": "B.Tech ? Mathematics and Computing",
+      "department": "Mathematics and Computing",
+      "title": "Security Research Fellowship",
+      "organization": "Redwood Security (fictional)",
+      "opportunityType": "full-time",
+      "year": 2021,
+      "summary": "Fictional learning record about preparing for a cybersecurity pathway. This is not a verified placement or testimonial.",
+      "startingPoint": "The fictional persona explored application security through coursework and a small self-directed project.",
+      "preparation": "Used legal practice labs, wrote clear vulnerability reports, and revised networking fundamentals.",
+      "skills": [
+        "Linux",
+        "Network Security",
+        "Python"
+      ],
+      "resources": [
+        "Course notes and official documentation",
+        "Peer review and a small practice project"
+      ],
+      "challenges": "Balancing focused preparation with coursework and learning to explain decisions clearly.",
+      "lessons": "A small, well-documented project and specific questions made the preparation more manageable.",
+      "timeline": [
+        {
+          "label": "Explore",
+          "detail": "Compared role requirements with current skills."
+        },
+        {
+          "label": "Prepare",
+          "detail": "Practiced core skills and reviewed feedback."
+        },
+        {
+          "label": "Reflect",
+          "detail": "Recorded lessons to guide the next learning step."
+        }
+      ],
+      "advice": "For a similar cybersecurity path, start with one small project, keep notes on what you learn, and verify current requirements from official sources.",
+      "tags": [
+        "Cybersecurity",
+        "Linux",
+        "Network Security",
+        "Python"
+      ],
+      "relatedOpportunityId": "fictional-opportunity-02"
+    },
+    {
+      "id": "fictional-story-03",
+      "type": "story",
+      "fictional": true,
+      "authorPersonId": "fictional-alum-05",
+      "seniorName": "Kavya Kapoor",
+      "graduationYear": 2018,
+      "degree": "B.Tech ? Information Technology",
+      "department": "Information Technology",
+      "title": "Product Design Internship",
+      "organization": "Paperplane Design (fictional)",
+      "opportunityType": "research",
+      "year": 2022,
+      "summary": "Fictional learning record about preparing for a ui/ux design pathway. This is not a verified placement or testimonial.",
+      "startingPoint": "The fictional persona explored inclusive design through coursework and a small self-directed project.",
+      "preparation": "Built a small case study, tested prototypes with peers, and documented accessibility decisions.",
+      "skills": [
+        "Figma",
+        "Accessibility",
+        "User Research"
+      ],
+      "resources": [
+        "Course notes and official documentation",
+        "Peer review and a small practice project"
+      ],
+      "challenges": "Balancing focused preparation with coursework and learning to explain decisions clearly.",
+      "lessons": "A small, well-documented project and specific questions made the preparation more manageable.",
+      "timeline": [
+        {
+          "label": "Explore",
+          "detail": "Compared role requirements with current skills."
+        },
+        {
+          "label": "Prepare",
+          "detail": "Practiced core skills and reviewed feedback."
+        },
+        {
+          "label": "Reflect",
+          "detail": "Recorded lessons to guide the next learning step."
+        }
+      ],
+      "advice": "For a similar ui/ux design path, start with one small project, keep notes on what you learn, and verify current requirements from official sources.",
+      "tags": [
+        "UI/UX design",
+        "Figma",
+        "Accessibility",
+        "User Research"
+      ],
+      "relatedOpportunityId": "fictional-opportunity-03"
+    },
+    {
+      "id": "fictional-story-04",
+      "type": "story",
+      "fictional": true,
+      "authorPersonId": "fictional-alum-07",
+      "seniorName": "Riya Roy",
+      "graduationYear": 2020,
+      "degree": "B.Des ? Interaction Design",
+      "department": "Interaction Design",
+      "title": "Fintech Engineering Internship",
+      "organization": "Ledgerleaf (fictional)",
+      "opportunityType": "scholarship",
+      "year": 2023,
+      "summary": "Fictional learning record about preparing for a fintech pathway. This is not a verified placement or testimonial.",
+      "startingPoint": "The fictional persona explored financial inclusion through coursework and a small self-directed project.",
+      "preparation": "Practiced backend fundamentals, tested edge cases, and learned to explain data protection choices.",
+      "skills": [
+        "Java",
+        "SQL",
+        "Security"
+      ],
+      "resources": [
+        "Course notes and official documentation",
+        "Peer review and a small practice project"
+      ],
+      "challenges": "Balancing focused preparation with coursework and learning to explain decisions clearly.",
+      "lessons": "A small, well-documented project and specific questions made the preparation more manageable.",
+      "timeline": [
+        {
+          "label": "Explore",
+          "detail": "Compared role requirements with current skills."
+        },
+        {
+          "label": "Prepare",
+          "detail": "Practiced core skills and reviewed feedback."
+        },
+        {
+          "label": "Reflect",
+          "detail": "Recorded lessons to guide the next learning step."
+        }
+      ],
+      "advice": "For a similar fintech path, start with one small project, keep notes on what you learn, and verify current requirements from official sources.",
+      "tags": [
+        "Fintech",
+        "Java",
+        "SQL",
+        "Security"
+      ],
+      "relatedOpportunityId": "fictional-opportunity-04"
+    },
+    {
+      "id": "fictional-story-05",
+      "type": "story",
+      "fictional": true,
+      "authorPersonId": "fictional-alum-09",
+      "seniorName": "Tara Mehta",
+      "graduationYear": 2022,
+      "degree": "B.Tech ? Biomedical Engineering",
+      "department": "Biomedical Engineering",
+      "title": "Business Analyst Internship",
+      "organization": "Meridian Advisory (fictional)",
+      "opportunityType": "competition",
+      "year": 2024,
+      "summary": "Fictional learning record about preparing for a consulting and business pathway. This is not a verified placement or testimonial.",
+      "startingPoint": "The fictional persona explored technology strategy through coursework and a small self-directed project.",
+      "preparation": "Practiced structured case questions, summarized evidence, and made assumptions explicit.",
+      "skills": [
+        "Excel",
+        "Structured Problem Solving",
+        "Presentation"
+      ],
+      "resources": [
+        "Course notes and official documentation",
+        "Peer review and a small practice project"
+      ],
+      "challenges": "Balancing focused preparation with coursework and learning to explain decisions clearly.",
+      "lessons": "A small, well-documented project and specific questions made the preparation more manageable.",
+      "timeline": [
+        {
+          "label": "Explore",
+          "detail": "Compared role requirements with current skills."
+        },
+        {
+          "label": "Prepare",
+          "detail": "Practiced core skills and reviewed feedback."
+        },
+        {
+          "label": "Reflect",
+          "detail": "Recorded lessons to guide the next learning step."
+        }
+      ],
+      "advice": "For a similar consulting and business path, start with one small project, keep notes on what you learn, and verify current requirements from official sources.",
+      "tags": [
+        "Consulting and business",
+        "Excel",
+        "Structured Problem Solving",
+        "Presentation"
+      ],
+      "relatedOpportunityId": "fictional-opportunity-05"
+    },
+    {
+      "id": "fictional-story-06",
+      "type": "story",
+      "fictional": true,
+      "authorPersonId": "fictional-alum-11",
+      "seniorName": "Aditi Verma",
+      "graduationYear": 2024,
+      "degree": "B.Tech ? Environmental Engineering",
+      "department": "Environmental Engineering",
+      "title": "Data Analyst Internship",
+      "organization": "Fieldnote Analytics (fictional)",
+      "opportunityType": "entrepreneurship",
+      "year": 2025,
+      "summary": "Fictional learning record about preparing for a data science and analytics pathway. This is not a verified placement or testimonial.",
+      "startingPoint": "The fictional persona explored public-interest analytics through coursework and a small self-directed project.",
+      "preparation": "Worked through SQL exercises, built a small dashboard, and practiced communicating uncertainty.",
+      "skills": [
+        "SQL",
+        "Python",
+        "Data Visualization"
+      ],
+      "resources": [
+        "Course notes and official documentation",
+        "Peer review and a small practice project"
+      ],
+      "challenges": "Balancing focused preparation with coursework and learning to explain decisions clearly.",
+      "lessons": "A small, well-documented project and specific questions made the preparation more manageable.",
+      "timeline": [
+        {
+          "label": "Explore",
+          "detail": "Compared role requirements with current skills."
+        },
+        {
+          "label": "Prepare",
+          "detail": "Practiced core skills and reviewed feedback."
+        },
+        {
+          "label": "Reflect",
+          "detail": "Recorded lessons to guide the next learning step."
+        }
+      ],
+      "advice": "For a similar data science and analytics path, start with one small project, keep notes on what you learn, and verify current requirements from official sources.",
+      "tags": [
+        "Data science and analytics",
+        "SQL",
+        "Python",
+        "Data Visualization"
+      ],
+      "relatedOpportunityId": "fictional-opportunity-06"
+    },
+    {
+      "id": "fictional-story-07",
+      "type": "story",
+      "fictional": true,
+      "authorPersonId": "fictional-alum-13",
+      "seniorName": "Mira Bose",
+      "graduationYear": 2026,
+      "degree": "BBA ? Business Analytics",
+      "department": "Business Analytics",
+      "title": "Associate Product Fellowship",
+      "organization": "Mosaic Product Studio (fictional)",
+      "opportunityType": "fellowship",
+      "year": 2020,
+      "summary": "Fictional learning record about preparing for a product management pathway. This is not a verified placement or testimonial.",
+      "startingPoint": "The fictional persona explored accessible product design through coursework and a small self-directed project.",
+      "preparation": "Practiced user interviews, wrote concise product briefs, and used simple data to compare priorities.",
+      "skills": [
+        "Product Discovery",
+        "Analytics",
+        "Communication"
+      ],
+      "resources": [
+        "Course notes and official documentation",
+        "Peer review and a small practice project"
+      ],
+      "challenges": "Balancing focused preparation with coursework and learning to explain decisions clearly.",
+      "lessons": "A small, well-documented project and specific questions made the preparation more manageable.",
+      "timeline": [
+        {
+          "label": "Explore",
+          "detail": "Compared role requirements with current skills."
+        },
+        {
+          "label": "Prepare",
+          "detail": "Practiced core skills and reviewed feedback."
+        },
+        {
+          "label": "Reflect",
+          "detail": "Recorded lessons to guide the next learning step."
+        }
+      ],
+      "advice": "For a similar product management path, start with one small project, keep notes on what you learn, and verify current requirements from official sources.",
+      "tags": [
+        "Product management",
+        "Product Discovery",
+        "Analytics",
+        "Communication"
+      ],
+      "relatedOpportunityId": "fictional-opportunity-07"
+    },
+    {
+      "id": "fictional-story-08",
+      "type": "story",
+      "fictional": true,
+      "authorPersonId": "fictional-alum-15",
+      "seniorName": "Pallavi Dutta",
+      "graduationYear": 2015,
+      "degree": "B.Tech ? Computer Science",
+      "department": "Computer Science",
+      "title": "Health Technology Design Challenge",
+      "organization": "Carepath Studio (fictional)",
+      "opportunityType": "internship",
+      "year": 2021,
+      "summary": "Fictional learning record about preparing for a healthcare technology pathway. This is not a verified placement or testimonial.",
+      "startingPoint": "The fictional persona explored healthcare technology through coursework and a small self-directed project.",
+      "preparation": "Mapped a user need, reviewed privacy constraints, and scoped a prototype with a multidisciplinary team.",
+      "skills": [
+        "Health Data",
+        "Python",
+        "Privacy"
+      ],
+      "resources": [
+        "Course notes and official documentation",
+        "Peer review and a small practice project"
+      ],
+      "challenges": "Balancing focused preparation with coursework and learning to explain decisions clearly.",
+      "lessons": "A small, well-documented project and specific questions made the preparation more manageable.",
+      "timeline": [
+        {
+          "label": "Explore",
+          "detail": "Compared role requirements with current skills."
+        },
+        {
+          "label": "Prepare",
+          "detail": "Practiced core skills and reviewed feedback."
+        },
+        {
+          "label": "Reflect",
+          "detail": "Recorded lessons to guide the next learning step."
+        }
+      ],
+      "advice": "For a similar healthcare technology path, start with one small project, keep notes on what you learn, and verify current requirements from official sources.",
+      "tags": [
+        "Healthcare technology",
+        "Health Data",
+        "Python",
+        "Privacy"
+      ],
+      "relatedOpportunityId": "fictional-opportunity-08"
+    },
+    {
+      "id": "fictional-story-09",
+      "type": "story",
+      "fictional": true,
+      "authorPersonId": "fictional-alum-17",
+      "seniorName": "Tanvi Das",
+      "graduationYear": 2017,
+      "degree": "B.Tech ? Information Technology",
+      "department": "Information Technology",
+      "title": "Student Venture Challenge",
+      "organization": "Loopseed (fictional)",
+      "opportunityType": "full-time",
+      "year": 2022,
+      "summary": "Fictional learning record about preparing for a startups and entrepreneurship pathway. This is not a verified placement or testimonial.",
+      "startingPoint": "The fictional persona explored civic technology through coursework and a small self-directed project.",
+      "preparation": "Interviewed potential users, tested a narrow prototype, and treated pitch feedback as a research input.",
+      "skills": [
+        "Prototyping",
+        "Customer Discovery",
+        "Pitching"
+      ],
+      "resources": [
+        "Course notes and official documentation",
+        "Peer review and a small practice project"
+      ],
+      "challenges": "Balancing focused preparation with coursework and learning to explain decisions clearly.",
+      "lessons": "A small, well-documented project and specific questions made the preparation more manageable.",
+      "timeline": [
+        {
+          "label": "Explore",
+          "detail": "Compared role requirements with current skills."
+        },
+        {
+          "label": "Prepare",
+          "detail": "Practiced core skills and reviewed feedback."
+        },
+        {
+          "label": "Reflect",
+          "detail": "Recorded lessons to guide the next learning step."
+        }
+      ],
+      "advice": "For a similar startups and entrepreneurship path, start with one small project, keep notes on what you learn, and verify current requirements from official sources.",
+      "tags": [
+        "Startups and entrepreneurship",
+        "Prototyping",
+        "Customer Discovery",
+        "Pitching"
+      ],
+      "relatedOpportunityId": "fictional-opportunity-09"
+    },
+    {
+      "id": "fictional-story-10",
+      "type": "story",
+      "fictional": true,
+      "authorPersonId": "fictional-alum-19",
+      "seniorName": "Yamini Arora",
+      "graduationYear": 2019,
+      "degree": "BBA ? Technology Management",
+      "department": "Technology Management",
+      "title": "Machine Learning Research Internship",
+      "organization": "Northstar Research Lab (fictional)",
+      "opportunityType": "research",
+      "year": 2023,
+      "summary": "Fictional learning record about preparing for a ai and machine learning pathway. This is not a verified placement or testimonial.",
+      "startingPoint": "The fictional persona explored responsible machine learning through coursework and a small self-directed project.",
+      "preparation": "Reproduced a baseline paper, documented experiments, and practiced explaining model trade-offs.",
+      "skills": [
+        "Python",
+        "Machine Learning",
+        "PyTorch"
+      ],
+      "resources": [
+        "Course notes and official documentation",
+        "Peer review and a small practice project"
+      ],
+      "challenges": "Balancing focused preparation with coursework and learning to explain decisions clearly.",
+      "lessons": "A small, well-documented project and specific questions made the preparation more manageable.",
+      "timeline": [
+        {
+          "label": "Explore",
+          "detail": "Compared role requirements with current skills."
+        },
+        {
+          "label": "Prepare",
+          "detail": "Practiced core skills and reviewed feedback."
+        },
+        {
+          "label": "Reflect",
+          "detail": "Recorded lessons to guide the next learning step."
+        }
+      ],
+      "advice": "For a similar ai and machine learning path, start with one small project, keep notes on what you learn, and verify current requirements from official sources.",
+      "tags": [
+        "AI and machine learning",
+        "Python",
+        "Machine Learning",
+        "PyTorch"
+      ],
+      "relatedOpportunityId": "fictional-opportunity-10"
+    },
+    {
+      "id": "fictional-story-11",
+      "type": "story",
+      "fictional": true,
+      "authorPersonId": "fictional-alum-21",
+      "seniorName": "Avni Khanna",
+      "graduationYear": 2021,
+      "degree": "B.Tech ? Electronics and Communication",
+      "department": "Electronics and Communication",
+      "title": "Cloud Engineering Internship",
+      "organization": "Cloudline Systems (fictional)",
+      "opportunityType": "scholarship",
+      "year": 2024,
+      "summary": "Fictional learning record about preparing for a cloud and devops pathway. This is not a verified placement or testimonial.",
+      "startingPoint": "The fictional persona explored reliable cloud infrastructure through coursework and a small self-directed project.",
+      "preparation": "Containerized a project, learned deployment basics, and documented monitoring and rollback choices.",
+      "skills": [
+        "Linux",
+        "Docker",
+        "AWS"
+      ],
+      "resources": [
+        "Course notes and official documentation",
+        "Peer review and a small practice project"
+      ],
+      "challenges": "Balancing focused preparation with coursework and learning to explain decisions clearly.",
+      "lessons": "A small, well-documented project and specific questions made the preparation more manageable.",
+      "timeline": [
+        {
+          "label": "Explore",
+          "detail": "Compared role requirements with current skills."
+        },
+        {
+          "label": "Prepare",
+          "detail": "Practiced core skills and reviewed feedback."
+        },
+        {
+          "label": "Reflect",
+          "detail": "Recorded lessons to guide the next learning step."
+        }
+      ],
+      "advice": "For a similar cloud and devops path, start with one small project, keep notes on what you learn, and verify current requirements from official sources.",
+      "tags": [
+        "Cloud and DevOps",
+        "Linux",
+        "Docker",
+        "AWS"
+      ],
+      "relatedOpportunityId": "fictional-opportunity-11"
+    },
+    {
+      "id": "fictional-story-12",
+      "type": "story",
+      "fictional": true,
+      "authorPersonId": "fictional-alum-23",
+      "seniorName": "Charu Saxena",
+      "graduationYear": 2023,
+      "degree": "B.Tech ? Computer Science",
+      "department": "Computer Science",
+      "title": "Research Assistantship",
+      "organization": "Institute for Applied Signals (fictional)",
+      "opportunityType": "competition",
+      "year": 2025,
+      "summary": "Fictional learning record about preparing for a research and academia pathway. This is not a verified placement or testimonial.",
+      "startingPoint": "The fictional persona explored signal processing through coursework and a small self-directed project.",
+      "preparation": "Read introductory papers, reproduced a small experiment, and asked focused questions about methods.",
+      "skills": [
+        "Research Methods",
+        "Python",
+        "Technical Writing"
+      ],
+      "resources": [
+        "Course notes and official documentation",
+        "Peer review and a small practice project"
+      ],
+      "challenges": "Balancing focused preparation with coursework and learning to explain decisions clearly.",
+      "lessons": "A small, well-documented project and specific questions made the preparation more manageable.",
+      "timeline": [
+        {
+          "label": "Explore",
+          "detail": "Compared role requirements with current skills."
+        },
+        {
+          "label": "Prepare",
+          "detail": "Practiced core skills and reviewed feedback."
+        },
+        {
+          "label": "Reflect",
+          "detail": "Recorded lessons to guide the next learning step."
+        }
+      ],
+      "advice": "For a similar research and academia path, start with one small project, keep notes on what you learn, and verify current requirements from official sources.",
+      "tags": [
+        "Research and academia",
+        "Research Methods",
+        "Python",
+        "Technical Writing"
+      ],
+      "relatedOpportunityId": "fictional-opportunity-12"
+    },
+    {
+      "id": "fictional-story-13",
+      "type": "story",
+      "fictional": true,
+      "authorPersonId": "fictional-alum-25",
+      "seniorName": "Gauri Khan",
+      "graduationYear": 2025,
+      "degree": "B.Tech ? Computer Science",
+      "department": "Computer Science",
+      "title": "Climate Solutions Fellowship",
+      "organization": "Common Ground Initiative (fictional)",
+      "opportunityType": "entrepreneurship",
+      "year": 2020,
+      "summary": "Fictional learning record about preparing for a climate and social impact pathway. This is not a verified placement or testimonial.",
+      "startingPoint": "The fictional persona explored climate resilience through coursework and a small self-directed project.",
+      "preparation": "Reviewed public datasets, defined a measurable question, and shared findings in plain language.",
+      "skills": [
+        "Impact Measurement",
+        "Research",
+        "Communication"
+      ],
+      "resources": [
+        "Course notes and official documentation",
+        "Peer review and a small practice project"
+      ],
+      "challenges": "Balancing focused preparation with coursework and learning to explain decisions clearly.",
+      "lessons": "A small, well-documented project and specific questions made the preparation more manageable.",
+      "timeline": [
+        {
+          "label": "Explore",
+          "detail": "Compared role requirements with current skills."
+        },
+        {
+          "label": "Prepare",
+          "detail": "Practiced core skills and reviewed feedback."
+        },
+        {
+          "label": "Reflect",
+          "detail": "Recorded lessons to guide the next learning step."
+        }
+      ],
+      "advice": "For a similar climate and social impact path, start with one small project, keep notes on what you learn, and verify current requirements from official sources.",
+      "tags": [
+        "Climate and social impact",
+        "Impact Measurement",
+        "Research",
+        "Communication"
+      ],
+      "relatedOpportunityId": "fictional-opportunity-13"
+    },
+    {
+      "id": "fictional-story-14",
+      "type": "story",
+      "fictional": true,
+      "authorPersonId": "fictional-alum-27",
+      "seniorName": "Aarohi Shah",
+      "graduationYear": 2014,
+      "degree": "B.Tech ? Computer Science",
+      "department": "Computer Science",
+      "title": "Software Engineering Internship",
+      "organization": "Cedar Labs (fictional)",
+      "opportunityType": "fellowship",
+      "year": 2021,
+      "summary": "Fictional learning record about preparing for a software engineering pathway. This is not a verified placement or testimonial.",
+      "startingPoint": "The fictional persona explored developer tools through coursework and a small self-directed project.",
+      "preparation": "Built a small API project, practiced data structures, and reviewed HTTP and testing fundamentals.",
+      "skills": [
+        "Python",
+        "REST APIs",
+        "Git"
+      ],
+      "resources": [
+        "Course notes and official documentation",
+        "Peer review and a small practice project"
+      ],
+      "challenges": "Balancing focused preparation with coursework and learning to explain decisions clearly.",
+      "lessons": "A small, well-documented project and specific questions made the preparation more manageable.",
+      "timeline": [
+        {
+          "label": "Explore",
+          "detail": "Compared role requirements with current skills."
+        },
+        {
+          "label": "Prepare",
+          "detail": "Practiced core skills and reviewed feedback."
+        },
+        {
+          "label": "Reflect",
+          "detail": "Recorded lessons to guide the next learning step."
+        }
+      ],
+      "advice": "For a similar software engineering path, start with one small project, keep notes on what you learn, and verify current requirements from official sources.",
+      "tags": [
+        "Software engineering",
+        "Python",
+        "REST APIs",
+        "Git"
+      ],
+      "relatedOpportunityId": "fictional-opportunity-14"
+    },
+    {
+      "id": "fictional-story-15",
+      "type": "story",
+      "fictional": true,
+      "authorPersonId": "fictional-alum-29",
+      "seniorName": "Ananya Bhat",
+      "graduationYear": 2016,
+      "degree": "B.Tech ? Mathematics and Computing",
+      "department": "Mathematics and Computing",
+      "title": "Security Research Fellowship",
+      "organization": "Redwood Security (fictional)",
+      "opportunityType": "internship",
+      "year": 2022,
+      "summary": "Fictional learning record about preparing for a cybersecurity pathway. This is not a verified placement or testimonial.",
+      "startingPoint": "The fictional persona explored application security through coursework and a small self-directed project.",
+      "preparation": "Used legal practice labs, wrote clear vulnerability reports, and revised networking fundamentals.",
+      "skills": [
+        "Linux",
+        "Network Security",
+        "Python"
+      ],
+      "resources": [
+        "Course notes and official documentation",
+        "Peer review and a small practice project"
+      ],
+      "challenges": "Balancing focused preparation with coursework and learning to explain decisions clearly.",
+      "lessons": "A small, well-documented project and specific questions made the preparation more manageable.",
+      "timeline": [
+        {
+          "label": "Explore",
+          "detail": "Compared role requirements with current skills."
+        },
+        {
+          "label": "Prepare",
+          "detail": "Practiced core skills and reviewed feedback."
+        },
+        {
+          "label": "Reflect",
+          "detail": "Recorded lessons to guide the next learning step."
+        }
+      ],
+      "advice": "For a similar cybersecurity path, start with one small project, keep notes on what you learn, and verify current requirements from official sources.",
+      "tags": [
+        "Cybersecurity",
+        "Linux",
+        "Network Security",
+        "Python"
+      ],
+      "relatedOpportunityId": "fictional-opportunity-15"
+    },
+    {
+      "id": "fictional-story-16",
+      "type": "story",
+      "fictional": true,
+      "authorPersonId": "fictional-alum-31",
+      "seniorName": "Kavya Kapoor",
+      "graduationYear": 2018,
+      "degree": "B.Tech ? Information Technology",
+      "department": "Information Technology",
+      "title": "Product Design Internship",
+      "organization": "Paperplane Design (fictional)",
+      "opportunityType": "full-time",
+      "year": 2023,
+      "summary": "Fictional learning record about preparing for a ui/ux design pathway. This is not a verified placement or testimonial.",
+      "startingPoint": "The fictional persona explored inclusive design through coursework and a small self-directed project.",
+      "preparation": "Built a small case study, tested prototypes with peers, and documented accessibility decisions.",
+      "skills": [
+        "Figma",
+        "Accessibility",
+        "User Research"
+      ],
+      "resources": [
+        "Course notes and official documentation",
+        "Peer review and a small practice project"
+      ],
+      "challenges": "Balancing focused preparation with coursework and learning to explain decisions clearly.",
+      "lessons": "A small, well-documented project and specific questions made the preparation more manageable.",
+      "timeline": [
+        {
+          "label": "Explore",
+          "detail": "Compared role requirements with current skills."
+        },
+        {
+          "label": "Prepare",
+          "detail": "Practiced core skills and reviewed feedback."
+        },
+        {
+          "label": "Reflect",
+          "detail": "Recorded lessons to guide the next learning step."
+        }
+      ],
+      "advice": "For a similar ui/ux design path, start with one small project, keep notes on what you learn, and verify current requirements from official sources.",
+      "tags": [
+        "UI/UX design",
+        "Figma",
+        "Accessibility",
+        "User Research"
+      ],
+      "relatedOpportunityId": "fictional-opportunity-16"
+    },
+    {
+      "id": "fictional-story-17",
+      "type": "story",
+      "fictional": true,
+      "authorPersonId": "fictional-alum-33",
+      "seniorName": "Riya Roy",
+      "graduationYear": 2020,
+      "degree": "B.Des ? Interaction Design",
+      "department": "Interaction Design",
+      "title": "Fintech Engineering Internship",
+      "organization": "Ledgerleaf (fictional)",
+      "opportunityType": "research",
+      "year": 2024,
+      "summary": "Fictional learning record about preparing for a fintech pathway. This is not a verified placement or testimonial.",
+      "startingPoint": "The fictional persona explored financial inclusion through coursework and a small self-directed project.",
+      "preparation": "Practiced backend fundamentals, tested edge cases, and learned to explain data protection choices.",
+      "skills": [
+        "Java",
+        "SQL",
+        "Security"
+      ],
+      "resources": [
+        "Course notes and official documentation",
+        "Peer review and a small practice project"
+      ],
+      "challenges": "Balancing focused preparation with coursework and learning to explain decisions clearly.",
+      "lessons": "A small, well-documented project and specific questions made the preparation more manageable.",
+      "timeline": [
+        {
+          "label": "Explore",
+          "detail": "Compared role requirements with current skills."
+        },
+        {
+          "label": "Prepare",
+          "detail": "Practiced core skills and reviewed feedback."
+        },
+        {
+          "label": "Reflect",
+          "detail": "Recorded lessons to guide the next learning step."
+        }
+      ],
+      "advice": "For a similar fintech path, start with one small project, keep notes on what you learn, and verify current requirements from official sources.",
+      "tags": [
+        "Fintech",
+        "Java",
+        "SQL",
+        "Security"
+      ],
+      "relatedOpportunityId": "fictional-opportunity-17"
+    },
+    {
+      "id": "fictional-story-18",
+      "type": "story",
+      "fictional": true,
+      "authorPersonId": "fictional-alum-35",
+      "seniorName": "Tara Mehta",
+      "graduationYear": 2022,
+      "degree": "B.Tech ? Biomedical Engineering",
+      "department": "Biomedical Engineering",
+      "title": "Business Analyst Internship",
+      "organization": "Meridian Advisory (fictional)",
+      "opportunityType": "scholarship",
+      "year": 2025,
+      "summary": "Fictional learning record about preparing for a consulting and business pathway. This is not a verified placement or testimonial.",
+      "startingPoint": "The fictional persona explored technology strategy through coursework and a small self-directed project.",
+      "preparation": "Practiced structured case questions, summarized evidence, and made assumptions explicit.",
+      "skills": [
+        "Excel",
+        "Structured Problem Solving",
+        "Presentation"
+      ],
+      "resources": [
+        "Course notes and official documentation",
+        "Peer review and a small practice project"
+      ],
+      "challenges": "Balancing focused preparation with coursework and learning to explain decisions clearly.",
+      "lessons": "A small, well-documented project and specific questions made the preparation more manageable.",
+      "timeline": [
+        {
+          "label": "Explore",
+          "detail": "Compared role requirements with current skills."
+        },
+        {
+          "label": "Prepare",
+          "detail": "Practiced core skills and reviewed feedback."
+        },
+        {
+          "label": "Reflect",
+          "detail": "Recorded lessons to guide the next learning step."
+        }
+      ],
+      "advice": "For a similar consulting and business path, start with one small project, keep notes on what you learn, and verify current requirements from official sources.",
+      "tags": [
+        "Consulting and business",
+        "Excel",
+        "Structured Problem Solving",
+        "Presentation"
+      ],
+      "relatedOpportunityId": "fictional-opportunity-18"
+    },
+    {
+      "id": "fictional-story-19",
+      "type": "story",
+      "fictional": true,
+      "authorPersonId": "fictional-alum-37",
+      "seniorName": "Aditi Verma",
+      "graduationYear": 2024,
+      "degree": "B.Tech ? Environmental Engineering",
+      "department": "Environmental Engineering",
+      "title": "Data Analyst Internship",
+      "organization": "Fieldnote Analytics (fictional)",
+      "opportunityType": "competition",
+      "year": 2020,
+      "summary": "Fictional learning record about preparing for a data science and analytics pathway. This is not a verified placement or testimonial.",
+      "startingPoint": "The fictional persona explored public-interest analytics through coursework and a small self-directed project.",
+      "preparation": "Worked through SQL exercises, built a small dashboard, and practiced communicating uncertainty.",
+      "skills": [
+        "SQL",
+        "Python",
+        "Data Visualization"
+      ],
+      "resources": [
+        "Course notes and official documentation",
+        "Peer review and a small practice project"
+      ],
+      "challenges": "Balancing focused preparation with coursework and learning to explain decisions clearly.",
+      "lessons": "A small, well-documented project and specific questions made the preparation more manageable.",
+      "timeline": [
+        {
+          "label": "Explore",
+          "detail": "Compared role requirements with current skills."
+        },
+        {
+          "label": "Prepare",
+          "detail": "Practiced core skills and reviewed feedback."
+        },
+        {
+          "label": "Reflect",
+          "detail": "Recorded lessons to guide the next learning step."
+        }
+      ],
+      "advice": "For a similar data science and analytics path, start with one small project, keep notes on what you learn, and verify current requirements from official sources.",
+      "tags": [
+        "Data science and analytics",
+        "SQL",
+        "Python",
+        "Data Visualization"
+      ],
+      "relatedOpportunityId": "fictional-opportunity-19"
+    },
+    {
+      "id": "fictional-story-20",
+      "type": "story",
+      "fictional": true,
+      "authorPersonId": "fictional-alum-39",
+      "seniorName": "Mira Bose",
+      "graduationYear": 2026,
+      "degree": "BBA ? Business Analytics",
+      "department": "Business Analytics",
+      "title": "Associate Product Fellowship",
+      "organization": "Mosaic Product Studio (fictional)",
+      "opportunityType": "entrepreneurship",
+      "year": 2021,
+      "summary": "Fictional learning record about preparing for a product management pathway. This is not a verified placement or testimonial.",
+      "startingPoint": "The fictional persona explored accessible product design through coursework and a small self-directed project.",
+      "preparation": "Practiced user interviews, wrote concise product briefs, and used simple data to compare priorities.",
+      "skills": [
+        "Product Discovery",
+        "Analytics",
+        "Communication"
+      ],
+      "resources": [
+        "Course notes and official documentation",
+        "Peer review and a small practice project"
+      ],
+      "challenges": "Balancing focused preparation with coursework and learning to explain decisions clearly.",
+      "lessons": "A small, well-documented project and specific questions made the preparation more manageable.",
+      "timeline": [
+        {
+          "label": "Explore",
+          "detail": "Compared role requirements with current skills."
+        },
+        {
+          "label": "Prepare",
+          "detail": "Practiced core skills and reviewed feedback."
+        },
+        {
+          "label": "Reflect",
+          "detail": "Recorded lessons to guide the next learning step."
+        }
+      ],
+      "advice": "For a similar product management path, start with one small project, keep notes on what you learn, and verify current requirements from official sources.",
+      "tags": [
+        "Product management",
+        "Product Discovery",
+        "Analytics",
+        "Communication"
+      ],
+      "relatedOpportunityId": "fictional-opportunity-20"
+    },
+    {
+      "id": "fictional-story-21",
+      "type": "story",
+      "fictional": true,
+      "authorPersonId": "fictional-alum-41",
+      "seniorName": "Pallavi Dutta",
+      "graduationYear": 2015,
+      "degree": "B.Tech ? Computer Science",
+      "department": "Computer Science",
+      "title": "Health Technology Design Challenge",
+      "organization": "Carepath Studio (fictional)",
+      "opportunityType": "fellowship",
+      "year": 2022,
+      "summary": "Fictional learning record about preparing for a healthcare technology pathway. This is not a verified placement or testimonial.",
+      "startingPoint": "The fictional persona explored healthcare technology through coursework and a small self-directed project.",
+      "preparation": "Mapped a user need, reviewed privacy constraints, and scoped a prototype with a multidisciplinary team.",
+      "skills": [
+        "Health Data",
+        "Python",
+        "Privacy"
+      ],
+      "resources": [
+        "Course notes and official documentation",
+        "Peer review and a small practice project"
+      ],
+      "challenges": "Balancing focused preparation with coursework and learning to explain decisions clearly.",
+      "lessons": "A small, well-documented project and specific questions made the preparation more manageable.",
+      "timeline": [
+        {
+          "label": "Explore",
+          "detail": "Compared role requirements with current skills."
+        },
+        {
+          "label": "Prepare",
+          "detail": "Practiced core skills and reviewed feedback."
+        },
+        {
+          "label": "Reflect",
+          "detail": "Recorded lessons to guide the next learning step."
+        }
+      ],
+      "advice": "For a similar healthcare technology path, start with one small project, keep notes on what you learn, and verify current requirements from official sources.",
+      "tags": [
+        "Healthcare technology",
+        "Health Data",
+        "Python",
+        "Privacy"
+      ],
+      "relatedOpportunityId": "fictional-opportunity-21"
+    },
+    {
+      "id": "fictional-story-22",
+      "type": "story",
+      "fictional": true,
+      "authorPersonId": "fictional-alum-43",
+      "seniorName": "Tanvi Das",
+      "graduationYear": 2017,
+      "degree": "B.Tech ? Information Technology",
+      "department": "Information Technology",
+      "title": "Student Venture Challenge",
+      "organization": "Loopseed (fictional)",
+      "opportunityType": "internship",
+      "year": 2023,
+      "summary": "Fictional learning record about preparing for a startups and entrepreneurship pathway. This is not a verified placement or testimonial.",
+      "startingPoint": "The fictional persona explored civic technology through coursework and a small self-directed project.",
+      "preparation": "Interviewed potential users, tested a narrow prototype, and treated pitch feedback as a research input.",
+      "skills": [
+        "Prototyping",
+        "Customer Discovery",
+        "Pitching"
+      ],
+      "resources": [
+        "Course notes and official documentation",
+        "Peer review and a small practice project"
+      ],
+      "challenges": "Balancing focused preparation with coursework and learning to explain decisions clearly.",
+      "lessons": "A small, well-documented project and specific questions made the preparation more manageable.",
+      "timeline": [
+        {
+          "label": "Explore",
+          "detail": "Compared role requirements with current skills."
+        },
+        {
+          "label": "Prepare",
+          "detail": "Practiced core skills and reviewed feedback."
+        },
+        {
+          "label": "Reflect",
+          "detail": "Recorded lessons to guide the next learning step."
+        }
+      ],
+      "advice": "For a similar startups and entrepreneurship path, start with one small project, keep notes on what you learn, and verify current requirements from official sources.",
+      "tags": [
+        "Startups and entrepreneurship",
+        "Prototyping",
+        "Customer Discovery",
+        "Pitching"
+      ],
+      "relatedOpportunityId": "fictional-opportunity-22"
+    },
+    {
+      "id": "fictional-story-23",
+      "type": "story",
+      "fictional": true,
+      "authorPersonId": "fictional-alum-45",
+      "seniorName": "Yamini Arora",
+      "graduationYear": 2019,
+      "degree": "BBA ? Technology Management",
+      "department": "Technology Management",
+      "title": "Machine Learning Research Internship",
+      "organization": "Northstar Research Lab (fictional)",
+      "opportunityType": "full-time",
+      "year": 2024,
+      "summary": "Fictional learning record about preparing for a ai and machine learning pathway. This is not a verified placement or testimonial.",
+      "startingPoint": "The fictional persona explored responsible machine learning through coursework and a small self-directed project.",
+      "preparation": "Reproduced a baseline paper, documented experiments, and practiced explaining model trade-offs.",
+      "skills": [
+        "Python",
+        "Machine Learning",
+        "PyTorch"
+      ],
+      "resources": [
+        "Course notes and official documentation",
+        "Peer review and a small practice project"
+      ],
+      "challenges": "Balancing focused preparation with coursework and learning to explain decisions clearly.",
+      "lessons": "A small, well-documented project and specific questions made the preparation more manageable.",
+      "timeline": [
+        {
+          "label": "Explore",
+          "detail": "Compared role requirements with current skills."
+        },
+        {
+          "label": "Prepare",
+          "detail": "Practiced core skills and reviewed feedback."
+        },
+        {
+          "label": "Reflect",
+          "detail": "Recorded lessons to guide the next learning step."
+        }
+      ],
+      "advice": "For a similar ai and machine learning path, start with one small project, keep notes on what you learn, and verify current requirements from official sources.",
+      "tags": [
+        "AI and machine learning",
+        "Python",
+        "Machine Learning",
+        "PyTorch"
+      ],
+      "relatedOpportunityId": "fictional-opportunity-23"
+    },
+    {
+      "id": "fictional-story-24",
+      "type": "story",
+      "fictional": true,
+      "authorPersonId": "fictional-alum-47",
+      "seniorName": "Avni Khanna",
+      "graduationYear": 2021,
+      "degree": "B.Tech ? Electronics and Communication",
+      "department": "Electronics and Communication",
+      "title": "Cloud Engineering Internship",
+      "organization": "Cloudline Systems (fictional)",
+      "opportunityType": "research",
+      "year": 2025,
+      "summary": "Fictional learning record about preparing for a cloud and devops pathway. This is not a verified placement or testimonial.",
+      "startingPoint": "The fictional persona explored reliable cloud infrastructure through coursework and a small self-directed project.",
+      "preparation": "Containerized a project, learned deployment basics, and documented monitoring and rollback choices.",
+      "skills": [
+        "Linux",
+        "Docker",
+        "AWS"
+      ],
+      "resources": [
+        "Course notes and official documentation",
+        "Peer review and a small practice project"
+      ],
+      "challenges": "Balancing focused preparation with coursework and learning to explain decisions clearly.",
+      "lessons": "A small, well-documented project and specific questions made the preparation more manageable.",
+      "timeline": [
+        {
+          "label": "Explore",
+          "detail": "Compared role requirements with current skills."
+        },
+        {
+          "label": "Prepare",
+          "detail": "Practiced core skills and reviewed feedback."
+        },
+        {
+          "label": "Reflect",
+          "detail": "Recorded lessons to guide the next learning step."
+        }
+      ],
+      "advice": "For a similar cloud and devops path, start with one small project, keep notes on what you learn, and verify current requirements from official sources.",
+      "tags": [
+        "Cloud and DevOps",
+        "Linux",
+        "Docker",
+        "AWS"
+      ],
+      "relatedOpportunityId": "fictional-opportunity-24"
+    },
+    {
+      "id": "fictional-story-25",
+      "type": "story",
+      "fictional": true,
+      "authorPersonId": "fictional-alum-49",
+      "seniorName": "Charu Saxena",
+      "graduationYear": 2023,
+      "degree": "B.Tech ? Computer Science",
+      "department": "Computer Science",
+      "title": "Research Assistantship",
+      "organization": "Institute for Applied Signals (fictional)",
+      "opportunityType": "scholarship",
+      "year": 2020,
+      "summary": "Fictional learning record about preparing for a research and academia pathway. This is not a verified placement or testimonial.",
+      "startingPoint": "The fictional persona explored signal processing through coursework and a small self-directed project.",
+      "preparation": "Read introductory papers, reproduced a small experiment, and asked focused questions about methods.",
+      "skills": [
+        "Research Methods",
+        "Python",
+        "Technical Writing"
+      ],
+      "resources": [
+        "Course notes and official documentation",
+        "Peer review and a small practice project"
+      ],
+      "challenges": "Balancing focused preparation with coursework and learning to explain decisions clearly.",
+      "lessons": "A small, well-documented project and specific questions made the preparation more manageable.",
+      "timeline": [
+        {
+          "label": "Explore",
+          "detail": "Compared role requirements with current skills."
+        },
+        {
+          "label": "Prepare",
+          "detail": "Practiced core skills and reviewed feedback."
+        },
+        {
+          "label": "Reflect",
+          "detail": "Recorded lessons to guide the next learning step."
+        }
+      ],
+      "advice": "For a similar research and academia path, start with one small project, keep notes on what you learn, and verify current requirements from official sources.",
+      "tags": [
+        "Research and academia",
+        "Research Methods",
+        "Python",
+        "Technical Writing"
+      ],
+      "relatedOpportunityId": "fictional-opportunity-25"
+    },
+    {
+      "id": "fictional-story-26",
+      "type": "story",
+      "fictional": true,
+      "authorPersonId": "fictional-alum-51",
+      "seniorName": "Gauri Khan",
+      "graduationYear": 2025,
+      "degree": "B.Tech ? Computer Science",
+      "department": "Computer Science",
+      "title": "Climate Solutions Fellowship",
+      "organization": "Common Ground Initiative (fictional)",
+      "opportunityType": "competition",
+      "year": 2021,
+      "summary": "Fictional learning record about preparing for a climate and social impact pathway. This is not a verified placement or testimonial.",
+      "startingPoint": "The fictional persona explored climate resilience through coursework and a small self-directed project.",
+      "preparation": "Reviewed public datasets, defined a measurable question, and shared findings in plain language.",
+      "skills": [
+        "Impact Measurement",
+        "Research",
+        "Communication"
+      ],
+      "resources": [
+        "Course notes and official documentation",
+        "Peer review and a small practice project"
+      ],
+      "challenges": "Balancing focused preparation with coursework and learning to explain decisions clearly.",
+      "lessons": "A small, well-documented project and specific questions made the preparation more manageable.",
+      "timeline": [
+        {
+          "label": "Explore",
+          "detail": "Compared role requirements with current skills."
+        },
+        {
+          "label": "Prepare",
+          "detail": "Practiced core skills and reviewed feedback."
+        },
+        {
+          "label": "Reflect",
+          "detail": "Recorded lessons to guide the next learning step."
+        }
+      ],
+      "advice": "For a similar climate and social impact path, start with one small project, keep notes on what you learn, and verify current requirements from official sources.",
+      "tags": [
+        "Climate and social impact",
+        "Impact Measurement",
+        "Research",
+        "Communication"
+      ],
+      "relatedOpportunityId": "fictional-opportunity-26"
+    }
+  ],
+  "opportunities": [
+    {
+      "id": "fictional-opportunity-01",
+      "title": "Software Engineering Internship",
+      "organization": "Cedar Labs (fictional)",
+      "type": "internship",
+      "description": "Fictional development opportunity record associated with Software Engineering Internship. Not a current vacancy or confirmed historical campus posting.",
+      "skills": [
+        "Python",
+        "REST APIs",
+        "Git"
+      ],
+      "eligibility": "Illustrative only; no confirmed eligibility criteria.",
+      "status": "development-only",
+      "applicationUrl": null,
+      "deadline": null,
+      "source": "Fictional development data; not an actual employer or live opportunity.",
+      "fictional": true,
+      "storyId": "fictional-story-01"
+    },
+    {
+      "id": "fictional-opportunity-02",
+      "title": "Security Research Fellowship",
+      "organization": "Redwood Security (fictional)",
+      "type": "full-time",
+      "description": "Fictional development opportunity record associated with Security Research Fellowship. Not a current vacancy or confirmed historical campus posting.",
+      "skills": [
+        "Linux",
+        "Network Security",
+        "Python"
+      ],
+      "eligibility": "Illustrative only; no confirmed eligibility criteria.",
+      "status": "development-only",
+      "applicationUrl": null,
+      "deadline": null,
+      "source": "Fictional development data; not an actual employer or live opportunity.",
+      "fictional": true,
+      "storyId": "fictional-story-02"
+    },
+    {
+      "id": "fictional-opportunity-03",
+      "title": "Product Design Internship",
+      "organization": "Paperplane Design (fictional)",
+      "type": "research",
+      "description": "Fictional development opportunity record associated with Product Design Internship. Not a current vacancy or confirmed historical campus posting.",
+      "skills": [
+        "Figma",
+        "Accessibility",
+        "User Research"
+      ],
+      "eligibility": "Illustrative only; no confirmed eligibility criteria.",
+      "status": "development-only",
+      "applicationUrl": null,
+      "deadline": null,
+      "source": "Fictional development data; not an actual employer or live opportunity.",
+      "fictional": true,
+      "storyId": "fictional-story-03"
+    },
+    {
+      "id": "fictional-opportunity-04",
+      "title": "Fintech Engineering Internship",
+      "organization": "Ledgerleaf (fictional)",
+      "type": "scholarship",
+      "description": "Fictional development opportunity record associated with Fintech Engineering Internship. Not a current vacancy or confirmed historical campus posting.",
+      "skills": [
+        "Java",
+        "SQL",
+        "Security"
+      ],
+      "eligibility": "Illustrative only; no confirmed eligibility criteria.",
+      "status": "development-only",
+      "applicationUrl": null,
+      "deadline": null,
+      "source": "Fictional development data; not an actual employer or live opportunity.",
+      "fictional": true,
+      "storyId": "fictional-story-04"
+    },
+    {
+      "id": "fictional-opportunity-05",
+      "title": "Business Analyst Internship",
+      "organization": "Meridian Advisory (fictional)",
+      "type": "competition",
+      "description": "Fictional development opportunity record associated with Business Analyst Internship. Not a current vacancy or confirmed historical campus posting.",
+      "skills": [
+        "Excel",
+        "Structured Problem Solving",
+        "Presentation"
+      ],
+      "eligibility": "Illustrative only; no confirmed eligibility criteria.",
+      "status": "development-only",
+      "applicationUrl": null,
+      "deadline": null,
+      "source": "Fictional development data; not an actual employer or live opportunity.",
+      "fictional": true,
+      "storyId": "fictional-story-05"
+    },
+    {
+      "id": "fictional-opportunity-06",
+      "title": "Data Analyst Internship",
+      "organization": "Fieldnote Analytics (fictional)",
+      "type": "entrepreneurship",
+      "description": "Fictional development opportunity record associated with Data Analyst Internship. Not a current vacancy or confirmed historical campus posting.",
+      "skills": [
+        "SQL",
+        "Python",
+        "Data Visualization"
+      ],
+      "eligibility": "Illustrative only; no confirmed eligibility criteria.",
+      "status": "development-only",
+      "applicationUrl": null,
+      "deadline": null,
+      "source": "Fictional development data; not an actual employer or live opportunity.",
+      "fictional": true,
+      "storyId": "fictional-story-06"
+    },
+    {
+      "id": "fictional-opportunity-07",
+      "title": "Associate Product Fellowship",
+      "organization": "Mosaic Product Studio (fictional)",
+      "type": "fellowship",
+      "description": "Fictional development opportunity record associated with Associate Product Fellowship. Not a current vacancy or confirmed historical campus posting.",
+      "skills": [
+        "Product Discovery",
+        "Analytics",
+        "Communication"
+      ],
+      "eligibility": "Illustrative only; no confirmed eligibility criteria.",
+      "status": "development-only",
+      "applicationUrl": null,
+      "deadline": null,
+      "source": "Fictional development data; not an actual employer or live opportunity.",
+      "fictional": true,
+      "storyId": "fictional-story-07"
+    },
+    {
+      "id": "fictional-opportunity-08",
+      "title": "Health Technology Design Challenge",
+      "organization": "Carepath Studio (fictional)",
+      "type": "internship",
+      "description": "Fictional development opportunity record associated with Health Technology Design Challenge. Not a current vacancy or confirmed historical campus posting.",
+      "skills": [
+        "Health Data",
+        "Python",
+        "Privacy"
+      ],
+      "eligibility": "Illustrative only; no confirmed eligibility criteria.",
+      "status": "development-only",
+      "applicationUrl": null,
+      "deadline": null,
+      "source": "Fictional development data; not an actual employer or live opportunity.",
+      "fictional": true,
+      "storyId": "fictional-story-08"
+    },
+    {
+      "id": "fictional-opportunity-09",
+      "title": "Student Venture Challenge",
+      "organization": "Loopseed (fictional)",
+      "type": "full-time",
+      "description": "Fictional development opportunity record associated with Student Venture Challenge. Not a current vacancy or confirmed historical campus posting.",
+      "skills": [
+        "Prototyping",
+        "Customer Discovery",
+        "Pitching"
+      ],
+      "eligibility": "Illustrative only; no confirmed eligibility criteria.",
+      "status": "development-only",
+      "applicationUrl": null,
+      "deadline": null,
+      "source": "Fictional development data; not an actual employer or live opportunity.",
+      "fictional": true,
+      "storyId": "fictional-story-09"
+    },
+    {
+      "id": "fictional-opportunity-10",
+      "title": "Machine Learning Research Internship",
+      "organization": "Northstar Research Lab (fictional)",
+      "type": "research",
+      "description": "Fictional development opportunity record associated with Machine Learning Research Internship. Not a current vacancy or confirmed historical campus posting.",
+      "skills": [
+        "Python",
+        "Machine Learning",
+        "PyTorch"
+      ],
+      "eligibility": "Illustrative only; no confirmed eligibility criteria.",
+      "status": "development-only",
+      "applicationUrl": null,
+      "deadline": null,
+      "source": "Fictional development data; not an actual employer or live opportunity.",
+      "fictional": true,
+      "storyId": "fictional-story-10"
+    },
+    {
+      "id": "fictional-opportunity-11",
+      "title": "Cloud Engineering Internship",
+      "organization": "Cloudline Systems (fictional)",
+      "type": "scholarship",
+      "description": "Fictional development opportunity record associated with Cloud Engineering Internship. Not a current vacancy or confirmed historical campus posting.",
+      "skills": [
+        "Linux",
+        "Docker",
+        "AWS"
+      ],
+      "eligibility": "Illustrative only; no confirmed eligibility criteria.",
+      "status": "development-only",
+      "applicationUrl": null,
+      "deadline": null,
+      "source": "Fictional development data; not an actual employer or live opportunity.",
+      "fictional": true,
+      "storyId": "fictional-story-11"
+    },
+    {
+      "id": "fictional-opportunity-12",
+      "title": "Research Assistantship",
+      "organization": "Institute for Applied Signals (fictional)",
+      "type": "competition",
+      "description": "Fictional development opportunity record associated with Research Assistantship. Not a current vacancy or confirmed historical campus posting.",
+      "skills": [
+        "Research Methods",
+        "Python",
+        "Technical Writing"
+      ],
+      "eligibility": "Illustrative only; no confirmed eligibility criteria.",
+      "status": "development-only",
+      "applicationUrl": null,
+      "deadline": null,
+      "source": "Fictional development data; not an actual employer or live opportunity.",
+      "fictional": true,
+      "storyId": "fictional-story-12"
+    },
+    {
+      "id": "fictional-opportunity-13",
+      "title": "Climate Solutions Fellowship",
+      "organization": "Common Ground Initiative (fictional)",
+      "type": "entrepreneurship",
+      "description": "Fictional development opportunity record associated with Climate Solutions Fellowship. Not a current vacancy or confirmed historical campus posting.",
+      "skills": [
+        "Impact Measurement",
+        "Research",
+        "Communication"
+      ],
+      "eligibility": "Illustrative only; no confirmed eligibility criteria.",
+      "status": "development-only",
+      "applicationUrl": null,
+      "deadline": null,
+      "source": "Fictional development data; not an actual employer or live opportunity.",
+      "fictional": true,
+      "storyId": "fictional-story-13"
+    },
+    {
+      "id": "fictional-opportunity-14",
+      "title": "Software Engineering Internship",
+      "organization": "Cedar Labs (fictional)",
+      "type": "fellowship",
+      "description": "Fictional development opportunity record associated with Software Engineering Internship. Not a current vacancy or confirmed historical campus posting.",
+      "skills": [
+        "Python",
+        "REST APIs",
+        "Git"
+      ],
+      "eligibility": "Illustrative only; no confirmed eligibility criteria.",
+      "status": "development-only",
+      "applicationUrl": null,
+      "deadline": null,
+      "source": "Fictional development data; not an actual employer or live opportunity.",
+      "fictional": true,
+      "storyId": "fictional-story-14"
+    },
+    {
+      "id": "fictional-opportunity-15",
+      "title": "Security Research Fellowship",
+      "organization": "Redwood Security (fictional)",
+      "type": "internship",
+      "description": "Fictional development opportunity record associated with Security Research Fellowship. Not a current vacancy or confirmed historical campus posting.",
+      "skills": [
+        "Linux",
+        "Network Security",
+        "Python"
+      ],
+      "eligibility": "Illustrative only; no confirmed eligibility criteria.",
+      "status": "development-only",
+      "applicationUrl": null,
+      "deadline": null,
+      "source": "Fictional development data; not an actual employer or live opportunity.",
+      "fictional": true,
+      "storyId": "fictional-story-15"
+    },
+    {
+      "id": "fictional-opportunity-16",
+      "title": "Product Design Internship",
+      "organization": "Paperplane Design (fictional)",
+      "type": "full-time",
+      "description": "Fictional development opportunity record associated with Product Design Internship. Not a current vacancy or confirmed historical campus posting.",
+      "skills": [
+        "Figma",
+        "Accessibility",
+        "User Research"
+      ],
+      "eligibility": "Illustrative only; no confirmed eligibility criteria.",
+      "status": "development-only",
+      "applicationUrl": null,
+      "deadline": null,
+      "source": "Fictional development data; not an actual employer or live opportunity.",
+      "fictional": true,
+      "storyId": "fictional-story-16"
+    },
+    {
+      "id": "fictional-opportunity-17",
+      "title": "Fintech Engineering Internship",
+      "organization": "Ledgerleaf (fictional)",
+      "type": "research",
+      "description": "Fictional development opportunity record associated with Fintech Engineering Internship. Not a current vacancy or confirmed historical campus posting.",
+      "skills": [
+        "Java",
+        "SQL",
+        "Security"
+      ],
+      "eligibility": "Illustrative only; no confirmed eligibility criteria.",
+      "status": "development-only",
+      "applicationUrl": null,
+      "deadline": null,
+      "source": "Fictional development data; not an actual employer or live opportunity.",
+      "fictional": true,
+      "storyId": "fictional-story-17"
+    },
+    {
+      "id": "fictional-opportunity-18",
+      "title": "Business Analyst Internship",
+      "organization": "Meridian Advisory (fictional)",
+      "type": "scholarship",
+      "description": "Fictional development opportunity record associated with Business Analyst Internship. Not a current vacancy or confirmed historical campus posting.",
+      "skills": [
+        "Excel",
+        "Structured Problem Solving",
+        "Presentation"
+      ],
+      "eligibility": "Illustrative only; no confirmed eligibility criteria.",
+      "status": "development-only",
+      "applicationUrl": null,
+      "deadline": null,
+      "source": "Fictional development data; not an actual employer or live opportunity.",
+      "fictional": true,
+      "storyId": "fictional-story-18"
+    },
+    {
+      "id": "fictional-opportunity-19",
+      "title": "Data Analyst Internship",
+      "organization": "Fieldnote Analytics (fictional)",
+      "type": "competition",
+      "description": "Fictional development opportunity record associated with Data Analyst Internship. Not a current vacancy or confirmed historical campus posting.",
+      "skills": [
+        "SQL",
+        "Python",
+        "Data Visualization"
+      ],
+      "eligibility": "Illustrative only; no confirmed eligibility criteria.",
+      "status": "development-only",
+      "applicationUrl": null,
+      "deadline": null,
+      "source": "Fictional development data; not an actual employer or live opportunity.",
+      "fictional": true,
+      "storyId": "fictional-story-19"
+    },
+    {
+      "id": "fictional-opportunity-20",
+      "title": "Associate Product Fellowship",
+      "organization": "Mosaic Product Studio (fictional)",
+      "type": "entrepreneurship",
+      "description": "Fictional development opportunity record associated with Associate Product Fellowship. Not a current vacancy or confirmed historical campus posting.",
+      "skills": [
+        "Product Discovery",
+        "Analytics",
+        "Communication"
+      ],
+      "eligibility": "Illustrative only; no confirmed eligibility criteria.",
+      "status": "development-only",
+      "applicationUrl": null,
+      "deadline": null,
+      "source": "Fictional development data; not an actual employer or live opportunity.",
+      "fictional": true,
+      "storyId": "fictional-story-20"
+    },
+    {
+      "id": "fictional-opportunity-21",
+      "title": "Health Technology Design Challenge",
+      "organization": "Carepath Studio (fictional)",
+      "type": "fellowship",
+      "description": "Fictional development opportunity record associated with Health Technology Design Challenge. Not a current vacancy or confirmed historical campus posting.",
+      "skills": [
+        "Health Data",
+        "Python",
+        "Privacy"
+      ],
+      "eligibility": "Illustrative only; no confirmed eligibility criteria.",
+      "status": "development-only",
+      "applicationUrl": null,
+      "deadline": null,
+      "source": "Fictional development data; not an actual employer or live opportunity.",
+      "fictional": true,
+      "storyId": "fictional-story-21"
+    },
+    {
+      "id": "fictional-opportunity-22",
+      "title": "Student Venture Challenge",
+      "organization": "Loopseed (fictional)",
+      "type": "internship",
+      "description": "Fictional development opportunity record associated with Student Venture Challenge. Not a current vacancy or confirmed historical campus posting.",
+      "skills": [
+        "Prototyping",
+        "Customer Discovery",
+        "Pitching"
+      ],
+      "eligibility": "Illustrative only; no confirmed eligibility criteria.",
+      "status": "development-only",
+      "applicationUrl": null,
+      "deadline": null,
+      "source": "Fictional development data; not an actual employer or live opportunity.",
+      "fictional": true,
+      "storyId": "fictional-story-22"
+    },
+    {
+      "id": "fictional-opportunity-23",
+      "title": "Machine Learning Research Internship",
+      "organization": "Northstar Research Lab (fictional)",
+      "type": "full-time",
+      "description": "Fictional development opportunity record associated with Machine Learning Research Internship. Not a current vacancy or confirmed historical campus posting.",
+      "skills": [
+        "Python",
+        "Machine Learning",
+        "PyTorch"
+      ],
+      "eligibility": "Illustrative only; no confirmed eligibility criteria.",
+      "status": "development-only",
+      "applicationUrl": null,
+      "deadline": null,
+      "source": "Fictional development data; not an actual employer or live opportunity.",
+      "fictional": true,
+      "storyId": "fictional-story-23"
+    },
+    {
+      "id": "fictional-opportunity-24",
+      "title": "Cloud Engineering Internship",
+      "organization": "Cloudline Systems (fictional)",
+      "type": "research",
+      "description": "Fictional development opportunity record associated with Cloud Engineering Internship. Not a current vacancy or confirmed historical campus posting.",
+      "skills": [
+        "Linux",
+        "Docker",
+        "AWS"
+      ],
+      "eligibility": "Illustrative only; no confirmed eligibility criteria.",
+      "status": "development-only",
+      "applicationUrl": null,
+      "deadline": null,
+      "source": "Fictional development data; not an actual employer or live opportunity.",
+      "fictional": true,
+      "storyId": "fictional-story-24"
+    },
+    {
+      "id": "fictional-opportunity-25",
+      "title": "Research Assistantship",
+      "organization": "Institute for Applied Signals (fictional)",
+      "type": "scholarship",
+      "description": "Fictional development opportunity record associated with Research Assistantship. Not a current vacancy or confirmed historical campus posting.",
+      "skills": [
+        "Research Methods",
+        "Python",
+        "Technical Writing"
+      ],
+      "eligibility": "Illustrative only; no confirmed eligibility criteria.",
+      "status": "development-only",
+      "applicationUrl": null,
+      "deadline": null,
+      "source": "Fictional development data; not an actual employer or live opportunity.",
+      "fictional": true,
+      "storyId": "fictional-story-25"
+    },
+    {
+      "id": "fictional-opportunity-26",
+      "title": "Climate Solutions Fellowship",
+      "organization": "Common Ground Initiative (fictional)",
+      "type": "competition",
+      "description": "Fictional development opportunity record associated with Climate Solutions Fellowship. Not a current vacancy or confirmed historical campus posting.",
+      "skills": [
+        "Impact Measurement",
+        "Research",
+        "Communication"
+      ],
+      "eligibility": "Illustrative only; no confirmed eligibility criteria.",
+      "status": "development-only",
+      "applicationUrl": null,
+      "deadline": null,
+      "source": "Fictional development data; not an actual employer or live opportunity.",
+      "fictional": true,
+      "storyId": "fictional-story-26"
+    }
+  ],
+  "posts": [
+    {
+      "id": "fictional-post-01",
+      "type": "hiring",
+      "fictional": true,
+      "authorPersonId": "fictional-alum-01",
+      "authorName": "Aarohi Shah",
+      "authorRole": "Alumni / Senior",
+      "organization": "Cedar Labs (fictional)",
+      "title": "Software Engineering Internship ? fictional role brief",
+      "summary": "Fictional development opportunity record. Not a live vacancy, referral offer, event, or company announcement.",
+      "content": "This record is fictional sample content, not an open position or real company announcement. No application URL, verified deadline, confirmed eligibility, or recruiter contact is available.\n\nUse this sample to explore typical software engineering skills: Python, REST APIs, Git. Find and verify current opportunities through official organization channels before taking action.",
+      "skills": [
+        "Python",
+        "REST APIs",
+        "Git"
+      ],
+      "tags": [
+        "Software engineering",
+        "Python",
+        "REST APIs",
+        "Git"
+      ],
+      "eligibility": "Illustrative development content only; verify requirements with an official source.",
+      "applicationUrl": null,
+      "deadline": null,
+      "status": "development-only",
+      "publishedAt": "2026-01-01"
+    },
+    {
+      "id": "fictional-post-02",
+      "type": "internship",
+      "fictional": true,
+      "authorPersonId": "fictional-alum-04",
+      "authorName": "Ishita Chawla",
+      "authorRole": "Alumni / Senior",
+      "organization": "Mosaic Product Studio (fictional)",
+      "title": "Product management internship ? fictional practice listing",
+      "summary": "Fictional development opportunity record. Not a live vacancy, referral offer, event, or company announcement.",
+      "content": "This record is fictional sample content, not an open position or real company announcement. No application URL, verified deadline, confirmed eligibility, or recruiter contact is available.\n\nUse this sample to explore typical product management skills: Product Discovery, Analytics, Communication. Find and verify current opportunities through official organization channels before taking action.",
+      "skills": [
+        "Product Discovery",
+        "Analytics",
+        "Communication"
+      ],
+      "tags": [
+        "Product management",
+        "Product Discovery",
+        "Analytics",
+        "Communication"
+      ],
+      "eligibility": "Illustrative development content only; verify requirements with an official source.",
+      "applicationUrl": null,
+      "deadline": null,
+      "status": "development-only",
+      "publishedAt": "2026-02-01"
+    },
+    {
+      "id": "fictional-post-03",
+      "type": "referral",
+      "fictional": true,
+      "authorPersonId": "fictional-alum-07",
+      "authorName": "Riya Roy",
+      "authorRole": "Alumni / Senior",
+      "organization": "Common Ground Initiative (fictional)",
+      "title": "Referral process guide ? Climate and social impact",
+      "summary": "Fictional development opportunity record. Not a live vacancy, referral offer, event, or company announcement.",
+      "content": "This record is fictional sample content, not an open position or real company announcement. No application URL, verified deadline, confirmed eligibility, or recruiter contact is available.\n\nUse this sample to explore typical climate and social impact skills: Impact Measurement, Research, Communication. Find and verify current opportunities through official organization channels before taking action.",
+      "skills": [
+        "Impact Measurement",
+        "Research",
+        "Communication"
+      ],
+      "tags": [
+        "Climate and social impact",
+        "Impact Measurement",
+        "Research",
+        "Communication"
+      ],
+      "eligibility": "Illustrative development content only; verify requirements with an official source.",
+      "applicationUrl": null,
+      "deadline": null,
+      "status": "development-only",
+      "publishedAt": "2026-03-01"
+    },
+    {
+      "id": "fictional-post-04",
+      "type": "blog",
+      "fictional": true,
+      "authorPersonId": "fictional-alum-10",
+      "authorName": "Veda Sethi",
+      "authorRole": "Alumni / Senior",
+      "organization": "Fieldnote Analytics (fictional)",
+      "title": "A practical start in Data science and analytics",
+      "summary": "Fictional career guide with general preparation ideas for data science and analytics.",
+      "content": "This fictional development article is a general learning guide, not a personal testimonial.\n\nStart by reviewing the fundamentals of SQL, Python, Data Visualization and choose one small project related to public-interest analytics. Write down the question you are trying to answer and what you expect to learn.\n\nAsk a peer to review your approach, document changes, and use official documentation to verify technical details. Requirements differ across roles and organizations, so check the actual posting before applying.",
+      "skills": [
+        "SQL",
+        "Python",
+        "Data Visualization"
+      ],
+      "tags": [
+        "Data science and analytics",
+        "SQL",
+        "Python",
+        "Data Visualization"
+      ],
+      "eligibility": "Illustrative development content only; verify requirements with an official source.",
+      "applicationUrl": null,
+      "deadline": null,
+      "status": "development-only",
+      "publishedAt": "2026-04-01"
+    },
+    {
+      "id": "fictional-post-05",
+      "type": "campus",
+      "fictional": true,
+      "authorPersonId": "fictional-alum-13",
+      "authorName": "Mira Bose",
+      "authorRole": "Alumni / Senior",
+      "organization": "Institute for Applied Signals (fictional)",
+      "title": "Community learning session ? Research and academia",
+      "summary": "Fictional development announcement record. Not a live vacancy, referral offer, event, or company announcement.",
+      "content": "This record is fictional sample content, not an open position or real company announcement. No application URL, verified deadline, confirmed eligibility, or recruiter contact is available.\n\nUse this sample to explore typical research and academia skills: Research Methods, Python, Technical Writing. Find and verify current opportunities through official organization channels before taking action.",
+      "skills": [
+        "Research Methods",
+        "Python",
+        "Technical Writing"
+      ],
+      "tags": [
+        "Research and academia",
+        "Research Methods",
+        "Python",
+        "Technical Writing"
+      ],
+      "eligibility": "Illustrative development content only; verify requirements with an official source.",
+      "applicationUrl": null,
+      "deadline": null,
+      "status": "development-only",
+      "publishedAt": "2026-05-01"
+    },
+    {
+      "id": "fictional-post-06",
+      "type": "hiring",
+      "fictional": true,
+      "authorPersonId": "fictional-alum-16",
+      "authorName": "Saira Rao",
+      "authorRole": "Alumni / Senior",
+      "organization": "Meridian Advisory (fictional)",
+      "title": "Business Analyst Internship ? fictional role brief",
+      "summary": "Fictional development opportunity record. Not a live vacancy, referral offer, event, or company announcement.",
+      "content": "This record is fictional sample content, not an open position or real company announcement. No application URL, verified deadline, confirmed eligibility, or recruiter contact is available.\n\nUse this sample to explore typical consulting and business skills: Excel, Structured Problem Solving, Presentation. Find and verify current opportunities through official organization channels before taking action.",
+      "skills": [
+        "Excel",
+        "Structured Problem Solving",
+        "Presentation"
+      ],
+      "tags": [
+        "Consulting and business",
+        "Excel",
+        "Structured Problem Solving",
+        "Presentation"
+      ],
+      "eligibility": "Illustrative development content only; verify requirements with an official source.",
+      "applicationUrl": null,
+      "deadline": null,
+      "status": "development-only",
+      "publishedAt": "2026-06-01"
+    },
+    {
+      "id": "fictional-post-07",
+      "type": "internship",
+      "fictional": true,
+      "authorPersonId": "fictional-alum-19",
+      "authorName": "Yamini Arora",
+      "authorRole": "Alumni / Senior",
+      "organization": "Cloudline Systems (fictional)",
+      "title": "Cloud and DevOps internship ? fictional practice listing",
+      "summary": "Fictional development opportunity record. Not a live vacancy, referral offer, event, or company announcement.",
+      "content": "This record is fictional sample content, not an open position or real company announcement. No application URL, verified deadline, confirmed eligibility, or recruiter contact is available.\n\nUse this sample to explore typical cloud and devops skills: Linux, Docker, AWS. Find and verify current opportunities through official organization channels before taking action.",
+      "skills": [
+        "Linux",
+        "Docker",
+        "AWS"
+      ],
+      "tags": [
+        "Cloud and DevOps",
+        "Linux",
+        "Docker",
+        "AWS"
+      ],
+      "eligibility": "Illustrative development content only; verify requirements with an official source.",
+      "applicationUrl": null,
+      "deadline": null,
+      "status": "development-only",
+      "publishedAt": "2026-07-01"
+    },
+    {
+      "id": "fictional-post-08",
+      "type": "referral",
+      "fictional": true,
+      "authorPersonId": "fictional-alum-22",
+      "authorName": "Bhavya Gupta",
+      "authorRole": "Alumni / Senior",
+      "organization": "Ledgerleaf (fictional)",
+      "title": "Referral process guide ? Fintech",
+      "summary": "Fictional development opportunity record. Not a live vacancy, referral offer, event, or company announcement.",
+      "content": "This record is fictional sample content, not an open position or real company announcement. No application URL, verified deadline, confirmed eligibility, or recruiter contact is available.\n\nUse this sample to explore typical fintech skills: Java, SQL, Security. Find and verify current opportunities through official organization channels before taking action.",
+      "skills": [
+        "Java",
+        "SQL",
+        "Security"
+      ],
+      "tags": [
+        "Fintech",
+        "Java",
+        "SQL",
+        "Security"
+      ],
+      "eligibility": "Illustrative development content only; verify requirements with an official source.",
+      "applicationUrl": null,
+      "deadline": null,
+      "status": "development-only",
+      "publishedAt": "2026-08-01"
+    },
+    {
+      "id": "fictional-post-09",
+      "type": "blog",
+      "fictional": true,
+      "authorPersonId": "fictional-alum-25",
+      "authorName": "Gauri Khan",
+      "authorRole": "Alumni / Senior",
+      "organization": "Northstar Research Lab (fictional)",
+      "title": "Learning Python through a small project",
+      "summary": "Fictional career guide with general preparation ideas for ai and machine learning.",
+      "content": "This fictional development article is a general learning guide, not a personal testimonial.\n\nStart by reviewing the fundamentals of Python, Machine Learning, PyTorch and choose one small project related to responsible machine learning. Write down the question you are trying to answer and what you expect to learn.\n\nAsk a peer to review your approach, document changes, and use official documentation to verify technical details. Requirements differ across roles and organizations, so check the actual posting before applying.",
+      "skills": [
+        "Python",
+        "Machine Learning",
+        "PyTorch"
+      ],
+      "tags": [
+        "AI and machine learning",
+        "Python",
+        "Machine Learning",
+        "PyTorch"
+      ],
+      "eligibility": "Illustrative development content only; verify requirements with an official source.",
+      "applicationUrl": null,
+      "deadline": null,
+      "status": "development-only",
+      "publishedAt": "2026-09-01"
+    },
+    {
+      "id": "fictional-post-10",
+      "type": "campus",
+      "fictional": true,
+      "authorPersonId": "fictional-alum-28",
+      "authorName": "Meera Malik",
+      "authorRole": "Alumni / Senior",
+      "organization": "Paperplane Design (fictional)",
+      "title": "Community learning session ? UI/UX design",
+      "summary": "Fictional development announcement record. Not a live vacancy, referral offer, event, or company announcement.",
+      "content": "This record is fictional sample content, not an open position or real company announcement. No application URL, verified deadline, confirmed eligibility, or recruiter contact is available.\n\nUse this sample to explore typical ui/ux design skills: Figma, Accessibility, User Research. Find and verify current opportunities through official organization channels before taking action.",
+      "skills": [
+        "Figma",
+        "Accessibility",
+        "User Research"
+      ],
+      "tags": [
+        "UI/UX design",
+        "Figma",
+        "Accessibility",
+        "User Research"
+      ],
+      "eligibility": "Illustrative development content only; verify requirements with an official source.",
+      "applicationUrl": null,
+      "deadline": null,
+      "status": "development-only",
+      "publishedAt": "2026-01-01"
+    },
+    {
+      "id": "fictional-post-11",
+      "type": "hiring",
+      "fictional": true,
+      "authorPersonId": "fictional-alum-31",
+      "authorName": "Kavya Kapoor",
+      "authorRole": "Alumni / Senior",
+      "organization": "Loopseed (fictional)",
+      "title": "Student Venture Challenge ? fictional role brief",
+      "summary": "Fictional development opportunity record. Not a live vacancy, referral offer, event, or company announcement.",
+      "content": "This record is fictional sample content, not an open position or real company announcement. No application URL, verified deadline, confirmed eligibility, or recruiter contact is available.\n\nUse this sample to explore typical startups and entrepreneurship skills: Prototyping, Customer Discovery, Pitching. Find and verify current opportunities through official organization channels before taking action.",
+      "skills": [
+        "Prototyping",
+        "Customer Discovery",
+        "Pitching"
+      ],
+      "tags": [
+        "Startups and entrepreneurship",
+        "Prototyping",
+        "Customer Discovery",
+        "Pitching"
+      ],
+      "eligibility": "Illustrative development content only; verify requirements with an official source.",
+      "applicationUrl": null,
+      "deadline": null,
+      "status": "development-only",
+      "publishedAt": "2026-02-01"
+    },
+    {
+      "id": "fictional-post-12",
+      "type": "internship",
+      "fictional": true,
+      "authorPersonId": "fictional-alum-34",
+      "authorName": "Sana Reddy",
+      "authorRole": "Alumni / Senior",
+      "organization": "Redwood Security (fictional)",
+      "title": "Cybersecurity internship ? fictional practice listing",
+      "summary": "Fictional development opportunity record. Not a live vacancy, referral offer, event, or company announcement.",
+      "content": "This record is fictional sample content, not an open position or real company announcement. No application URL, verified deadline, confirmed eligibility, or recruiter contact is available.\n\nUse this sample to explore typical cybersecurity skills: Linux, Network Security, Python. Find and verify current opportunities through official organization channels before taking action.",
+      "skills": [
+        "Linux",
+        "Network Security",
+        "Python"
+      ],
+      "tags": [
+        "Cybersecurity",
+        "Linux",
+        "Network Security",
+        "Python"
+      ],
+      "eligibility": "Illustrative development content only; verify requirements with an official source.",
+      "applicationUrl": null,
+      "deadline": null,
+      "status": "development-only",
+      "publishedAt": "2026-03-01"
+    },
+    {
+      "id": "fictional-post-13",
+      "type": "referral",
+      "fictional": true,
+      "authorPersonId": "fictional-alum-37",
+      "authorName": "Aditi Verma",
+      "authorRole": "Alumni / Senior",
+      "organization": "Carepath Studio (fictional)",
+      "title": "Referral process guide ? Healthcare technology",
+      "summary": "Fictional development opportunity record. Not a live vacancy, referral offer, event, or company announcement.",
+      "content": "This record is fictional sample content, not an open position or real company announcement. No application URL, verified deadline, confirmed eligibility, or recruiter contact is available.\n\nUse this sample to explore typical healthcare technology skills: Health Data, Python, Privacy. Find and verify current opportunities through official organization channels before taking action.",
+      "skills": [
+        "Health Data",
+        "Python",
+        "Privacy"
+      ],
+      "tags": [
+        "Healthcare technology",
+        "Health Data",
+        "Python",
+        "Privacy"
+      ],
+      "eligibility": "Illustrative development content only; verify requirements with an official source.",
+      "applicationUrl": null,
+      "deadline": null,
+      "status": "development-only",
+      "publishedAt": "2026-04-01"
+    },
+    {
+      "id": "fictional-post-14",
+      "type": "blog",
+      "fictional": true,
+      "authorPersonId": "fictional-alum-40",
+      "authorName": "Neha Jain",
+      "authorRole": "Alumni / Senior",
+      "organization": "Cedar Labs (fictional)",
+      "title": "Preparing for Software Engineering Internship",
+      "summary": "Fictional career guide with general preparation ideas for software engineering.",
+      "content": "This fictional development article is a general learning guide, not a personal testimonial.\n\nStart by reviewing the fundamentals of Python, REST APIs, Git and choose one small project related to developer tools. Write down the question you are trying to answer and what you expect to learn.\n\nAsk a peer to review your approach, document changes, and use official documentation to verify technical details. Requirements differ across roles and organizations, so check the actual posting before applying.",
+      "skills": [
+        "Python",
+        "REST APIs",
+        "Git"
+      ],
+      "tags": [
+        "Software engineering",
+        "Python",
+        "REST APIs",
+        "Git"
+      ],
+      "eligibility": "Illustrative development content only; verify requirements with an official source.",
+      "applicationUrl": null,
+      "deadline": null,
+      "status": "development-only",
+      "publishedAt": "2026-05-01"
+    },
+    {
+      "id": "fictional-post-15",
+      "type": "campus",
+      "fictional": true,
+      "authorPersonId": "fictional-alum-43",
+      "authorName": "Tanvi Das",
+      "authorRole": "Alumni / Senior",
+      "organization": "Mosaic Product Studio (fictional)",
+      "title": "Community learning session ? Product management",
+      "summary": "Fictional development announcement record. Not a live vacancy, referral offer, event, or company announcement.",
+      "content": "This record is fictional sample content, not an open position or real company announcement. No application URL, verified deadline, confirmed eligibility, or recruiter contact is available.\n\nUse this sample to explore typical product management skills: Product Discovery, Analytics, Communication. Find and verify current opportunities through official organization channels before taking action.",
+      "skills": [
+        "Product Discovery",
+        "Analytics",
+        "Communication"
+      ],
+      "tags": [
+        "Product management",
+        "Product Discovery",
+        "Analytics",
+        "Communication"
+      ],
+      "eligibility": "Illustrative development content only; verify requirements with an official source.",
+      "applicationUrl": null,
+      "deadline": null,
+      "status": "development-only",
+      "publishedAt": "2026-06-01"
+    }
+  ]
+}
