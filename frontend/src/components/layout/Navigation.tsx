@@ -8,6 +8,7 @@ const links = [
   { to: '/how-it-works', label: 'How It Works' },
   { to: '/features', label: 'Features' },
   { to: '/explore', label: 'Explore' },
+  { to: '/about', label: 'About & Help' },
 ]
 
 export default function Navigation() {
@@ -25,7 +26,7 @@ export default function Navigation() {
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-5 py-3.5 sm:px-8">
         <Logo />
 
-        <div className="hidden items-center gap-9 md:flex">
+        <div className="hidden items-center gap-6 lg:flex">
           {links.map((l) => (
             <NavLink key={l.to} to={l.to} className={linkClass}>
               {l.label}
@@ -41,7 +42,7 @@ export default function Navigation() {
 
         <button
           type="button"
-          className="rounded-lg p-2 text-forest-green md:hidden"
+          className="rounded-lg p-2 text-forest-green lg:hidden"
           aria-label={open ? 'Close menu' : 'Open menu'}
           aria-expanded={open}
           onClick={() => setOpen((v) => !v)}
@@ -51,7 +52,7 @@ export default function Navigation() {
       </nav>
 
       {open && (
-        <div className="border-t border-forest-green/10 bg-white-surface px-5 pb-5 pt-3 md:hidden">
+        <div className="border-t border-forest-green/10 bg-white-surface px-5 pb-5 pt-3 lg:hidden">
           <div className="flex flex-col gap-1">
             {links.map((l) => (
               <NavLink

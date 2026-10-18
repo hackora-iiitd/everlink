@@ -1,4 +1,4 @@
-export type RoleKey = 'student' | 'alumni' | 'professor'
+export type RoleKey = 'student' | 'alumni' | 'professor' | 'admin'
 
 export type RoleConfig = {
   key: RoleKey
@@ -51,6 +51,15 @@ export const roles: Record<RoleKey, RoleConfig> = {
     ],
     registerPath: '/join/professor',
     loginPath: '/login/professor',
+  },
+  admin: {
+    key: 'admin',
+    label: 'Admin',
+    tagline: 'Steward the Everlink community.',
+    welcome: 'Use your institution account to review the community overview.',
+    points: ['Community overview and departmental connections'],
+    registerPath: '/signin',
+    loginPath: '/login/admin',
   },
 }
 

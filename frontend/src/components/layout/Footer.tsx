@@ -67,7 +67,7 @@ export default function Footer() {
       <div className="border-t border-white-surface/10">
         <div className="mx-auto flex max-w-7xl flex-col gap-2 px-5 py-5 text-sm text-white-surface/55 sm:flex-row sm:justify-between sm:px-8">
           <p>© {new Date().getFullYear()} Everlink. Built by Team Hackora, IGDTUW.</p>
-          <p>Profiles shown on this site are demo data.</p>
+          <p>Connect with your Everlink community.</p>
         </div>
       </div>
     </footer>

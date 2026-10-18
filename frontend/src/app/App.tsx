@@ -3,7 +3,10 @@ import Navigation from '../components/layout/Navigation'
 import Home from '../pages/Home'
 import Search from '../pages/Search'
 import Profile from '../pages/Profile'
-import ComingSoon from '../pages/ComingSoon'
+import HowItWorks from '../pages/public/HowItWorks'
+import Features from '../pages/public/Features'
+import Explore from '../pages/public/Explore'
+import About from '../pages/public/About'
 import SignInChooser from '../pages/auth/SignInChooser'
 import Login from '../pages/auth/Login'
 import ForgotPassword from '../pages/auth/ForgotPassword'
@@ -18,6 +21,8 @@ import LinkedInCallback from '../pages/alumni/LinkedInCallback'
 import ProfessorRegister from '../pages/professor/ProfessorRegister'
 import ProfessorOnboarding from '../pages/professor/ProfessorOnboarding'
 import ProfessorDashboard from '../pages/professor/ProfessorDashboard'
+import StudentDashboard from '../pages/student/StudentDashboard'
+import AdminDashboard from '../pages/admin/AdminDashboard'
 import RequireRole from '../components/auth/RequireRole'
 import './App.css'
 
@@ -30,10 +35,10 @@ function App() {
           <Route path="/" element={<Home />} />
 
           {/* Public pages — built one by one */}
-          <Route path="/how-it-works" element={<ComingSoon title="How It Works" />} />
-          <Route path="/features" element={<ComingSoon title="Features" />} />
-          <Route path="/explore" element={<ComingSoon title="Explore the Network" />} />
-          <Route path="/about" element={<ComingSoon title="About & Help" />} />
+          <Route path="/how-it-works" element={<HowItWorks />} />
+          <Route path="/features" element={<Features />} />
+          <Route path="/explore" element={<Explore />} />
+          <Route path="/about" element={<About />} />
 
           {/* Auth portals */}
           <Route path="/signin" element={<SignInChooser />} />
@@ -44,7 +49,7 @@ function App() {
           <Route path="/forgot-password" element={<ForgotPassword />} />
           <Route path="/verify-email" element={<VerifyEmail />} />
           <Route path="/onboarding/student" element={<StudentOnboarding />} />
-          <Route path="/dashboard/student" element={<ComingSoon title="Student Dashboard" />} />
+          <Route path="/dashboard/student" element={<RequireRole role="student"><StudentDashboard /></RequireRole>} />
 
           {/* Alumni: LinkedIn only, then education verification */}
           <Route path="/join/alumni" element={<AlumniJoin />} />
@@ -57,6 +62,8 @@ function App() {
           <Route path="/join/professor" element={<ProfessorRegister />} />
           <Route path="/onboarding/professor" element={<RequireRole role="professor"><ProfessorOnboarding /></RequireRole>} />
           <Route path="/dashboard/professor" element={<RequireRole role="professor"><ProfessorDashboard /></RequireRole>} />
+          <Route path="/login/admin" element={<Login role="admin" />} />
+          <Route path="/dashboard/admin" element={<RequireRole role="admin"><AdminDashboard /></RequireRole>} />
 
           {/* Existing pages */}
           <Route path="/search" element={<Search />} />

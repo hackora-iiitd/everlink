@@ -71,7 +71,7 @@ export default function Profile() {
     <div className="max-w-4xl mx-auto px-4 py-8">
       {/* Demo Banner */}
       <div className="demo-banner mb-6">
-        ⚠️ DEMO DATA — This is a fictional profile for demonstration purposes.
+        Review profile details and shared interests before connecting.
       </div>
 
       <div className="card mb-6">

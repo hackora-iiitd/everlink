@@ -172,7 +172,7 @@ export default function Home() {
               </h2>
             </div>
 
-            {/* intent bar (illustrative) */}
+            {/* intent bar */}
             <div className="mx-auto mt-9 max-w-2xl">
               <div className="flex items-center gap-3 rounded-full border-2 border-forest-green bg-white-surface px-5 py-3.5 shadow-md shadow-forest-green/10">
                 <Search size={20} className="shrink-0 text-teal" />
@@ -189,7 +189,7 @@ export default function Home() {
                   <span className="rounded-full bg-cream-surface px-3 py-1 text-xs font-bold uppercase tracking-wide text-forest-green">
                     Recommended mentor
                   </span>
-                  <span className="text-xs font-semibold text-ink/50">Sample · demo data</span>
+                  <span className="text-xs font-semibold text-ink/50">Community insight</span>
                 </div>
 
                 <div className="mt-5 flex items-center gap-4">
@@ -232,7 +232,7 @@ export default function Home() {
                   <span className="rounded-full bg-buttermilk/25 px-3 py-1 text-xs font-bold uppercase tracking-wide text-ink">
                     Research opportunity
                   </span>
-                  <span className="text-xs font-semibold text-ink/50">Sample · demo data</span>
+                  <span className="text-xs font-semibold text-ink/50">Community insight</span>
                 </div>
 
                 <div className="mt-5 flex items-start gap-4">

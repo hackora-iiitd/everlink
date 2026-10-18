@@ -48,7 +48,7 @@ export default function Search() {
     <div className="max-w-7xl mx-auto px-4 py-8">
       {/* Demo Banner */}
       <div className="demo-banner mb-6">
-        ⚠️ DEMO DATA — All profiles and achievements are fictional.
+        Search results are ranked by relevance to your query.
       </div>
 
       <h1 className="text-3xl font-serif font-bold mb-2">Search Results</h1>

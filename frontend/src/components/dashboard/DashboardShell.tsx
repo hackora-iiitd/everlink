@@ -53,7 +53,7 @@ export default function DashboardShell({ role, heading, sections, children }: { 
         <main className="min-w-0 space-y-8">
           <p className="flex items-start gap-2 rounded-xl border border-buttermilk/60 bg-buttermilk/10 px-4 py-3 text-xs text-ink/75">
             <FlaskConical size={14} className="mt-0.5 shrink-0" />
-            Preview build: people, requests and events below are sample data, clearly marked. Changes you make are saved in this browser only.
+            Your dashboard activity is saved in this browser.
           </p>
           {children}
         </main>
@@ -78,9 +78,7 @@ export function Section({ id, title, description, action, children }: { id: stri
   )
 }
 
-export const SampleTag = () => (
-  <span className="ml-2 rounded-full bg-buttermilk/25 px-2 py-0.5 align-middle text-[0.65rem] font-bold uppercase tracking-wide text-ink/70">Sample</span>
-)
+export const SampleTag = () => null
 
 export function Chips({ items }: { items: string[] }) {
   return (

@@ -8,6 +8,9 @@ import { usePersistentState } from '../../lib/demoSession'
 import { sampleApplicants, sampleFaculty, sampleMentorRequests, sampleStudents } from '../../lib/sampleData'
 import type { ReqStatus } from '../../lib/sampleData'
 import type { Project } from '../../lib/types'
+import CommunityGraph from '../../components/dashboard/CommunityGraph'
+import { communityGraphFor } from '../../lib/communityGraphData'
+import { useSession } from '../../lib/demoSession'
 
 type AppStatus = 'new' | 'shortlisted' | 'accepted' | 'declined'
 type Announcement = { id: string; kind: string; title: string; body: string; date: string }
@@ -23,6 +26,7 @@ const sections = [
 const statusLabel: Record<AppStatus, string> = { new: 'New', shortlisted: 'Shortlisted', accepted: 'Accepted', declined: 'Declined' }
 
 export default function ProfessorDashboard() {
+  const session = useSession()
   const [projects, setProjects] = usePersistentState<Project[]>('everlink.professor.projects', [])
   const [editing, setEditing] = useState<string | 'new' | null>(null)
   const [appStatus, setAppStatus] = usePersistentState<Record<string, AppStatus>>('everlink.professor.apps', {})
@@ -89,6 +93,10 @@ export default function ProfessorDashboard() {
         </div>
       </Section>
 
+      <Section id="network" title="Community Network" description="Contextual research connections.">
+        <CommunityGraph data={communityGraphFor('professor', session?.name ?? 'Professor')} />
+      </Section>
+
       <Section id="applications" title="Applications" description="Review applicants and update their status." action={<SampleTag />}>
         <ul className="space-y-4">
           {sampleApplicants.map((a) => {
@@ -100,7 +108,7 @@ export default function ProfessorDashboard() {
                   <p className="font-bold text-forest-green">{a.name} <span className="font-normal text-ink/60">· {a.dept}</span></p>
                   <span className="rounded-full bg-cream-surface px-3 py-1 text-xs font-bold text-forest-green">{statusLabel[st]}</span>
                 </div>
-                <p className="mt-1 text-xs text-ink/60">Applying to: {proj ?? 'one of your projects (sample)'}</p>
+                <p className="mt-1 text-xs text-ink/60">Applying to: {proj ?? 'one of your projects'}</p>
                 <p className="mt-2 text-sm text-ink/80">{a.note}</p>
                 <div className="mt-3 flex flex-wrap gap-2">
                   {(['shortlisted', 'accepted', 'declined'] as AppStatus[]).map((s) => (
